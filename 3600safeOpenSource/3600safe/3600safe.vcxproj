@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{341D5F46-9606-46AC-949B-B7312B6CA543}</ProjectGuid>
+    <RootNamespace>My3600safe</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>../bin/A-Protect$(TargetExt)</OutputFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\3600safe.bmp" />
+    <None Include="res\3600safe.ico" />
+    <None Include="res\3600safeDoc.ico" />
+    <None Include="res\aaa.bmp" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\Dispatch.ico" />
+    <None Include="res\GDriver.ico" />
+    <None Include="res\Hips.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\icon3.ico" />
+    <None Include="res\icon9.ico" />
+    <None Include="res\KernelHook.ico" />
+    <None Include="res\KernelModule.ico" />
+    <None Include="res\KernelThread.ico" />
+    <None Include="res\My3600safe.rc2" />
+    <None Include="res\Process.ico" />
+    <None Include="res\ring3.ico" />
+    <None Include="res\Services.ico" />
+    <None Include="res\Tcpview.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3600safe.h" />
+    <ClInclude Include="3600safeDoc.h" />
+    <ClInclude Include="3600safeView.h" />
+    <ClInclude Include="AboutDlg.h" />
+    <ClInclude Include="Atapi.h" />
+    <ClInclude Include="C3600Splash.h" />
+    <ClInclude Include="ClrListCtrl.h" />
+    <ClInclude Include="DLLModule.h" />
+    <ClInclude Include="DpcTimer.h" />
+    <ClInclude Include="FilterDriver.h" />
+    <ClInclude Include="FsdHook.h" />
+    <ClInclude Include="HipsLog.h" />
+    <ClInclude Include="Install.h" />
+    <ClInclude Include="Kbdclass.h" />
+    <ClInclude Include="KernelHook.h" />
+    <ClInclude Include="KernelModule.h" />
+    <ClInclude Include="KernelThread.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Md5.h" />
+    <ClInclude Include="Mouclass.h" />
+    <ClInclude Include="Nsiproxy.h" />
+    <ClInclude Include="ObjectHook.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="ProcessHandle.h" />
+    <ClInclude Include="ProcessThread.h" />
+    <ClInclude Include="SubModule.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Services.h" />
+    <ClInclude Include="ShadowSSDT.h" />
+    <ClInclude Include="SSDT.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemNotify.h" />
+    <ClInclude Include="SystemThread.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tcpip.h" />
+    <ClInclude Include="TcpView.h" />
+    <ClInclude Include="uninstall360.h" />
+    <ClInclude Include="Windows2003SP1_CN.h" />
+    <ClInclude Include="Windows2003SP2_CN.h" />
+    <ClInclude Include="Windows7Home_CN.h" />
+    <ClInclude Include="Windows7SP1_CN.h" />
+    <ClInclude Include="WindowsXPSP2_CN.h" />
+    <ClInclude Include="WindowsXPSP3_CN.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3600safe.cpp" />
+    <ClCompile Include="3600safeDoc.cpp" />
+    <ClCompile Include="3600safeView.cpp" />
+    <ClCompile Include="AboutDlg.cpp" />
+    <ClCompile Include="Atapi.cpp" />
+    <ClCompile Include="C3600Splash.cpp" />
+    <ClCompile Include="ClrListCtrl.cpp" />
+    <ClCompile Include="DLLModule.cpp" />
+    <ClCompile Include="DpcTimer.cpp" />
+    <ClCompile Include="FilterDriver.cpp" />
+    <ClCompile Include="FsdHook.cpp" />
+    <ClCompile Include="HipsLog.cpp" />
+    <ClCompile Include="Install.cpp" />
+    <ClCompile Include="Kbdclass.cpp" />
+    <ClCompile Include="KernelHook.cpp" />
+    <ClCompile Include="KernelModule.cpp" />
+    <ClCompile Include="KernelThread.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Md5.cpp" />
+    <ClCompile Include="Mouclass.cpp" />
+    <ClCompile Include="Nsiproxy.cpp" />
+    <ClCompile Include="ObjectHook.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="ProcessHandle.cpp" />
+    <ClCompile Include="ProcessThread.cpp" />
+    <ClCompile Include="SubModule.cpp" />
+    <ClCompile Include="Services.cpp" />
+    <ClCompile Include="ShadowSSDT.cpp" />
+    <ClCompile Include="SSDT.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SystemNotify.cpp" />
+    <ClCompile Include="SystemThread.cpp" />
+    <ClCompile Include="Tcpip.cpp" />
+    <ClCompile Include="TcpView.cpp" />
+    <ClCompile Include="uninstall360.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3600safe.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="3600safe.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

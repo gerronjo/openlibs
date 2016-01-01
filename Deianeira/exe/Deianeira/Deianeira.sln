@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deianeira", "Deianeira\Deianeira.vcxproj", "{A87118DE-313C-433A-B239-E2C7E00D8444}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugin", "Plugin\Plugin.vcxproj", "{3920EFB9-CCCE-4FE1-9EE0-64523A9C1C53}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A87118DE-313C-433A-B239-E2C7E00D8444} = {A87118DE-313C-433A-B239-E2C7E00D8444}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PluginTest", "PluginTest\PluginTest.vcxproj", "{1CC5271A-6D86-4B89-B191-AE62248766AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PluginTest2", "PluginTest2\PluginTest2.vcxproj", "{A3A71A50-4C67-4F23-B9F5-A2042A8B7A4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A87118DE-313C-433A-B239-E2C7E00D8444}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A87118DE-313C-433A-B239-E2C7E00D8444}.Debug|Win32.Build.0 = Debug|Win32
+		{A87118DE-313C-433A-B239-E2C7E00D8444}.Release|Win32.ActiveCfg = Release|Win32
+		{A87118DE-313C-433A-B239-E2C7E00D8444}.Release|Win32.Build.0 = Release|Win32
+		{3920EFB9-CCCE-4FE1-9EE0-64523A9C1C53}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3920EFB9-CCCE-4FE1-9EE0-64523A9C1C53}.Debug|Win32.Build.0 = Debug|Win32
+		{3920EFB9-CCCE-4FE1-9EE0-64523A9C1C53}.Release|Win32.ActiveCfg = Release|Win32
+		{3920EFB9-CCCE-4FE1-9EE0-64523A9C1C53}.Release|Win32.Build.0 = Release|Win32
+		{1CC5271A-6D86-4B89-B191-AE62248766AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CC5271A-6D86-4B89-B191-AE62248766AF}.Debug|Win32.Build.0 = Debug|Win32
+		{1CC5271A-6D86-4B89-B191-AE62248766AF}.Release|Win32.ActiveCfg = Release|Win32
+		{1CC5271A-6D86-4B89-B191-AE62248766AF}.Release|Win32.Build.0 = Release|Win32
+		{A3A71A50-4C67-4F23-B9F5-A2042A8B7A4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3A71A50-4C67-4F23-B9F5-A2042A8B7A4A}.Debug|Win32.Build.0 = Debug|Win32
+		{A3A71A50-4C67-4F23-B9F5-A2042A8B7A4A}.Release|Win32.ActiveCfg = Release|Win32
+		{A3A71A50-4C67-4F23-B9F5-A2042A8B7A4A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

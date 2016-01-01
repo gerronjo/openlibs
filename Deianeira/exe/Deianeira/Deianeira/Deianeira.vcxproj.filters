@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="OD_DASM">
+      <UniqueIdentifier>{5ce0ea72-5b57-4fe6-8227-9cafc27e94ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\header">
+      <UniqueIdentifier>{87507120-06ed-4024-a448-e76d07999e06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CatchForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Deianeira.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OD_DASM\disasm.cpp">
+      <Filter>OD_DASM</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessModuleForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessThreadForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFindModuleForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessSigverifForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceCreateForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessInjectDllForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessInjectDllByHookMsg1Form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessInjectDllByHookMsg2Form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherShareCreateForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherUserCreateForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherUserChangeForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow_ssdt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DisasmForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sysmodule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\common_net.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\process.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sigverif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileRenameForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherCleanSetForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherCleanTraceForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHandleInfoForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUnlockViewForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegUnlockViewForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinPropertyForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinFindForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="other_table_infect_form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="other_table_view_form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="other_table_export_form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventlogForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reg_string_change_form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reg_dword_change_form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reg_multi_change_form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reg_find_form.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ntreg_init.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ntreg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\lib\QQwry\QQwry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CatchForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OD_DASM\disasm.h">
+      <Filter>OD_DASM</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessModuleForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessThreadForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessFindModuleForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessSigverifForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\ioctlcode.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceCreateForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInjectDllForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInjectDllByHookMsg1Form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInjectDllByHookMsg2Form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherShareCreateForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherUserCreateForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherUserChangeForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_ssdt.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="DisasmForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\sysmodule.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common_net.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\process.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\sigverif.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewItemComparer.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="FileRenameForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherCleanSetForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherCleanTraceForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHandleInfoForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUnlockViewForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegUnlockViewForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFindForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinPropertyForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="other_table_infect_form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="other_table_view_form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="other_table_export_form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventlogForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reg_string_change_form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reg_dword_change_form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reg_multi_change_form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reg_find_form.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ntreg.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ntreg_init.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\lib\QQwry\QQwry.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\lib\sqlite3\sqlite3.h">
+      <Filter>头文件\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\..\attachment\LSP.reg" />
+    <None Include="..\..\..\attachment\SafeBoot.reg" />
+    <None Include="..\..\..\release\Deianeira.sys" />
+    <None Include="..\..\..\release\Deianeira.config" />
+    <None Include="..\..\..\release\Plugin.dll" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatchForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessFindModuleForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessModuleForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessSigverifForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessThreadForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInjectDllForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceCreateForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInjectDllByHookMsg1Form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInjectDllByHookMsg2Form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherShareCreateForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherUserCreateForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherUserChangeForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisasmForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileRenameForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherCleanSetForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherCleanTraceForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessHandleInfoForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileUnlockViewForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegUnlockViewForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinFindForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinPropertyForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="other_table_infect_form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="other_table_export_form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="other_table_view_form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventlogForm.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg_dword_change_form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg_string_change_form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg_multi_change_form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg_find_form.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <_EmbedManagedResourceFile Include="..\..\..\common\icon\win.cur">
+      <Filter>资源文件</Filter>
+    </_EmbedManagedResourceFile>
+  </ItemGroup>
+</Project>

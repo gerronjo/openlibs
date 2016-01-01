@@ -1,0 +1,109 @@
+; RAMDISK.INF
+; Windows installation file for installing the Ramdisk driver
+; Copyright (c) Microsoft Corporation All rights Reserved
+;
+; Installation Notes:
+;
+;     Using Devcon: Type "devcon install ramdisk.inf Ramdisk" to install
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Sample
+ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171}
+Provider=%MSFT%
+DriverVer=06/14/2011,6.1.7600.16385
+CatalogFile=KmdfSamples.cat
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[ClassInstall32]
+Addreg=SampleClassReg
+
+[SampleClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+
+[DiskCopyfiles]
+Virtualdisk.sys
+
+[SourceDisksNames]
+1=%InstDisk%,
+
+[SourceDisksFiles]
+Virtualdisk.sys=1
+
+[Manufacturer]
+%MSFT% = DiskDevice,NTx86
+
+; For Win2K
+[DiskDevice]
+%DiskDevDesc% = DiskInstall, Virtualdisk
+
+; For XP and later
+[DiskDevice.NTx86]
+%DiskDevDesc% = DiskInstall, Virtualdisk
+
+[DiskInstall.NT]
+CopyFiles = DiskCopyfiles
+
+[DiskInstall.NT.Services]
+AddService = Virtualdisk, %SPSVCINST_ASSOCSERVICE%, DiskServiceInst
+
+[DiskServiceInst]
+ServiceType   = %SERVICE_KERNEL_DRIVER%
+StartType     = %SERVICE_DEMAND_START%
+ErrorControl  = %SERVICE_ERROR_NORMAL%
+DisplayName   = %DiskServiceDesc%
+ServiceBinary = %12%\VirtualDisk.sys
+AddReg        = DiskAddReg
+
+[DiskAddReg]
+HKR, "Parameters", "BreakOnEntry",      %REG_DWORD%, 0x00000000
+HKR, "Parameters", "DebugLevel",        %REG_DWORD%, 0x00000000
+HKR, "Parameters", "DebugComp",         %REG_DWORD%, 0xFFFFFFFF
+HKR, "Parameters", "DiskSize",          %REG_DWORD%, 0x00100000
+HKR, "Parameters", "DriveLetter",       %REG_SZ%,    "R:"
+HKR, "Parameters", "RootDirEntries",    %REG_DWORD%, 0x00000200
+HKR, "Parameters", "SectorsPerCluster", %REG_DWORD%, 0x00000002
+
+
+;-------------- Coinstaller installation
+[DestinationDirs]
+CoInstaller_CopyFiles = 11
+
+[DiskInstall.NT.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+[CoInstaller_CopyFiles]
+WdfCoInstaller01009.dll
+
+[SourceDisksFiles]
+WdfCoInstaller01009.dll=1 ; make sure the number matches with SourceDisksNames
+
+[CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "WdfCoInstaller01009.dll,WdfCoInstaller"
+
+[DiskInstall.NT.Wdf]
+KmdfService = Virtualdisk, Ramdisk_wdfsect
+[Ramdisk_wdfsect]
+KmdfLibraryVersion = 1.9
+
+
+[Strings]
+MSFT            = "Microsoft"
+ClassName       = "Sample Device"
+DiskDevDesc     = "WDF Sample RAM disk Driver"
+DiskServiceDesc = "Ramdisk Driver"
+InstDisk        = "Ramdisk Install Disk"
+;*******************************************
+;Handy macro substitutions (non-localizable)
+SPSVCINST_ASSOCSERVICE = 0x00000002
+SERVICE_KERNEL_DRIVER  = 1
+SERVICE_DEMAND_START   = 3
+SERVICE_ERROR_NORMAL   = 1
+REG_DWORD              = 0x00010001
+REG_SZ                 = 0x00000000
+

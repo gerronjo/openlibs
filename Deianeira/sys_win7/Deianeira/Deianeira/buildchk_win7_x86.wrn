@@ -1,0 +1,475 @@
+1>warnings in directory e:\deiane~1\sys_win7\deiane~1\deiane~1
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(30) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'PCWSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(94) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(116) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(116) : warning C4024: 'ZwOpenFile' : different types for formal and actual parameter 6
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(125) : warning C4047: 'function' : 'ACCESS_MASK' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(125) : warning C4024: 'ObReferenceObjectByHandle' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(137) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(153) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(153) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(173) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(214) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(324) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(324) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(327) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(327) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(330) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(330) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(333) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(333) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(336) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(336) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(339) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(339) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(342) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(342) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(345) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(345) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(348) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(348) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(351) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(351) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(354) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(354) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(357) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(357) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(360) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(360) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(363) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(363) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(366) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(366) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(369) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(369) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(372) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(372) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(375) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(375) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(378) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(378) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(381) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(381) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(384) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(384) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(387) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(387) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(390) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(390) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(393) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(393) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(396) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(396) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(399) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(399) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(402) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(402) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(405) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(405) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(408) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(408) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(411) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(411) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(18) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(18) : warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(18) : warning C4024: 'swprintf' : different types for formal and actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(20) : warning C4047: 'return' : 'LPWSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(20) : warning C4172: returning address of local variable or temporary
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(33) : warning C4133: '=' : incompatible types - from 'PMONITOR_PROCESS_FILTER_INFO' to 'MONITOR_PROCESS_FILTER_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(49) : warning C4133: '=' : incompatible types - from 'PMONITOR_PATH_FILTER_INFO' to 'MONITOR_PATH_FILTER_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(68) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(76) : warning C4133: '=' : incompatible types - from 'MONITOR_PROCESS_FILTER_INFO *' to 'PMONITOR_PROCESS_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(76) : warning C4133: '=' : incompatible types - from 'MONITOR_PROCESS_FILTER_INFO *' to 'PMONITOR_PROCESS_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(81) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(83) : warning C4033: 'monitor_updateMonitorInfo' must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(88) : warning C4133: '=' : incompatible types - from 'MONITOR_PROCESS_FILTER_INFO *' to 'PMONITOR_PROCESS_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(88) : warning C4133: '=' : incompatible types - from 'MONITOR_PROCESS_FILTER_INFO *' to 'PMONITOR_PROCESS_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(92) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(94) : warning C4033: 'monitor_updateMonitorInfo' must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(103) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(105) : warning C4033: 'monitor_updateMonitorInfo' must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(110) : warning C4133: '=' : incompatible types - from 'MONITOR_PROCESS_FILTER_INFO *' to 'PMONITOR_PROCESS_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(110) : warning C4133: '=' : incompatible types - from 'MONITOR_PROCESS_FILTER_INFO *' to 'PMONITOR_PROCESS_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(114) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(116) : warning C4033: 'monitor_updateMonitorInfo' must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(124) : warning C4133: '=' : incompatible types - from 'MONITOR_PATH_FILTER_INFO *' to 'PMONITOR_PATH_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(124) : warning C4133: '=' : incompatible types - from 'MONITOR_PATH_FILTER_INFO *' to 'PMONITOR_PATH_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(129) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(131) : warning C4033: 'monitor_updateMonitorInfo' must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(136) : warning C4133: '=' : incompatible types - from 'MONITOR_PATH_FILTER_INFO *' to 'PMONITOR_PATH_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(136) : warning C4133: '=' : incompatible types - from 'MONITOR_PATH_FILTER_INFO *' to 'PMONITOR_PATH_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(140) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(142) : warning C4033: 'monitor_updateMonitorInfo' must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(151) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(153) : warning C4033: 'monitor_updateMonitorInfo' must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(158) : warning C4133: '=' : incompatible types - from 'MONITOR_PATH_FILTER_INFO *' to 'PMONITOR_PATH_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(158) : warning C4133: '=' : incompatible types - from 'MONITOR_PATH_FILTER_INFO *' to 'PMONITOR_PATH_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(162) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(164) : warning C4033: 'monitor_updateMonitorInfo' must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(174) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(176) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(176) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(178) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(178) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(183) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(183) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(185) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(185) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(187) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(187) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(189) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(189) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(191) : warning C4133: '=' : incompatible types - from 'PMONITOR_INFO' to 'MONITOR_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(202) : warning C4133: '=' : incompatible types - from 'MONITOR_PROCESS_FILTER_INFO *' to 'PMONITOR_PROCESS_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(206) : warning C4133: '=' : incompatible types - from 'MONITOR_PROCESS_FILTER_INFO *' to 'PMONITOR_PROCESS_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(214) : warning C4133: '=' : incompatible types - from 'MONITOR_PATH_FILTER_INFO *' to 'PMONITOR_PATH_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(218) : warning C4133: '=' : incompatible types - from 'MONITOR_PATH_FILTER_INFO *' to 'PMONITOR_PATH_FILTER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(248) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(248) : warning C4024: 'GetProcessImageNameByProcessHandle' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(252) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(268) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(268) : warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(268) : warning C4024: 'swprintf' : different types for formal and actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4024: 'monitor_updateMonitorInfo' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4024: 'monitor_updateMonitorInfo' : different types for formal and actual parameter 5
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(271) : warning C4024: 'monitor_updateMonitorInfo' : different types for formal and actual parameter 7
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(304) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(304) : warning C4024: 'GetProcessImageNameByProcessHandle' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(308) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(325) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(325) : warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(325) : warning C4024: 'swprintf' : different types for formal and actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(328) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(328) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(328) : warning C4024: 'monitor_updateMonitorInfo' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(328) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(328) : warning C4133: 'function' : incompatible types - from 'unsigned short [1]' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(328) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(328) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(328) : warning C4024: 'monitor_updateMonitorInfo' : different types for formal and actual parameter 7
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(359) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(359) : warning C4024: 'GetProcessImageNameByProcessHandle' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(363) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(371) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(371) : warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(371) : warning C4024: 'swprintf' : different types for formal and actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(374) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(374) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(374) : warning C4024: 'monitor_updateMonitorInfo' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(374) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(374) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(374) : warning C4133: 'function' : incompatible types - from 'PWCH' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(374) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[256]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(374) : warning C4024: 'monitor_updateMonitorInfo' : different types for formal and actual parameter 7
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(387) : warning C4133: '=' : incompatible types - from 'PDISABLE_CREATE_REG' to 'PMONITOR_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(387) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(414) : warning C4133: '=' : incompatible types - from 'MONITOR_INFO *' to 'PMONITOR_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(419) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(439) : warning C4133: '=' : incompatible types - from 'MONITOR_INFO *' to 'PMONITOR_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(439) : warning C4133: '=' : incompatible types - from 'MONITOR_INFO *' to 'PMONITOR_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(462) : warning C4133: '=' : incompatible types - from 'MONITOR_INFO *' to 'PMONITOR_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(462) : warning C4133: '=' : incompatible types - from 'MONITOR_INFO *' to 'PMONITOR_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(19) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(47) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(79) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(86) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(105) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(140) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(170) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(194) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(226) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(252) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(278) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(306) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(329) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(338) : warning C4047: 'return' : 'LONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(351) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(360) : warning C4047: 'return' : 'BOOL' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(379) : warning C4133: 'function' : incompatible types - from 'unsigned short [14]' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(388) : warning C4133: 'function' : incompatible types - from 'unsigned short [13]' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(422) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(423) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(424) : warning C4047: '=' : 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(425) : warning C4047: '=' : 'HWND (__stdcall *)(void)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(426) : warning C4047: '=' : 'LRESULT (__stdcall *)(HWND,UINT,WPARAM,LPARAM,ULONG_PTR,DWORD,BOOL)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(427) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(428) : warning C4047: '=' : 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(429) : warning C4047: '=' : 'HANDLE (__stdcall *)(HWND,ULONG)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(430) : warning C4047: '=' : 'LONG (__stdcall *)(HWND,int,LONG,BOOL)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(431) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,int)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(432) : warning C4047: '=' : 'HWND (__stdcall *)(LONG,LONG)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(437) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(438) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(439) : warning C4047: '=' : 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(440) : warning C4047: '=' : 'HWND (__stdcall *)(void)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(441) : warning C4047: '=' : 'LRESULT (__stdcall *)(HWND,UINT,WPARAM,LPARAM,ULONG_PTR,DWORD,BOOL)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(442) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(443) : warning C4047: '=' : 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(444) : warning C4047: '=' : 'HANDLE (__stdcall *)(HWND,ULONG)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(445) : warning C4047: '=' : 'LONG (__stdcall *)(HWND,int,LONG,BOOL)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(446) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,int)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(447) : warning C4047: '=' : 'HWND (__stdcall *)(LONG,LONG)' differs in levels of indirection from 'unsigned int'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(458) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(459) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(460) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(461) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(462) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LRESULT (__stdcall *)(HWND,UINT,WPARAM,LPARAM,ULONG_PTR,DWORD,BOOL)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(463) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(464) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(465) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(466) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(467) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(468) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(473) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(474) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(475) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(476) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(477) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LRESULT (__stdcall *)(HWND,UINT,WPARAM,LPARAM,ULONG_PTR,DWORD,BOOL)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(478) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(479) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(480) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(481) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(482) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(483) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(510) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(511) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(512) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(513) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(514) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LRESULT (__stdcall *)(HWND,UINT,WPARAM,LPARAM,ULONG_PTR,DWORD,BOOL)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(515) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(516) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(517) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(518) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(519) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(520) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(525) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(526) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(527) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(528) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(529) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LRESULT (__stdcall *)(HWND,UINT,WPARAM,LPARAM,ULONG_PTR,DWORD,BOOL)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(530) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(531) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(532) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(533) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(534) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\protection.c(535) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(36) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(64) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(99) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(127) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(225) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(227) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(381) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(404) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(409) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(476) : warning C4133: 'function' : incompatible types - from 'unsigned short [24]' to 'LPTSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(476) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PVOID'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(507) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(533) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(568) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(603) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(633) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(668) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(701) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(725) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(752) : warning C4022: 'PsLookupThreadByThreadId' : pointer mismatch for actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(802) : warning C4022: 'PsLookupThreadByThreadId' : pointer mismatch for actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(849) : warning C4022: 'PsLookupProcessByProcessId' : pointer mismatch for actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(936) : warning C4022: 'PsLookupProcessByProcessId' : pointer mismatch for actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1116) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1217) : warning C4133: '=' : incompatible types - from 'PPROCESS_THREAD_INFO' to 'PROCESS_THREAD_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1251) : warning C4047: '=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1252) : warning C4047: '=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1382) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1386) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1392) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1405) : warning C4018: '<' : signed/unsigned mismatch
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1410) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1448) : warning C4047: 'function' : 'LPTSTR' differs in levels of indirection from 'WCHAR (*)[25]'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1448) : warning C4024: 'common_getHandleTypeName' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1452) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1457) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1464) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1469) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1477) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1481) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1487) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1491) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1503) : warning C4133: '=' : incompatible types - from 'PPROCESS_HANDLE_INFO' to 'PROCESS_HANDLE_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1530) : warning C4133: '=' : incompatible types - from 'PROCESS_HANDLE_INFO *' to 'PPROCESS_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1550) : warning C4133: '=' : incompatible types - from 'PROCESS_HANDLE_INFO *' to 'PPROCESS_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1550) : warning C4133: '=' : incompatible types - from 'PROCESS_HANDLE_INFO *' to 'PPROCESS_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1574) : warning C4133: '=' : incompatible types - from 'PROCESS_HANDLE_INFO *' to 'PPROCESS_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1574) : warning C4133: '=' : incompatible types - from 'PROCESS_HANDLE_INFO *' to 'PPROCESS_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(54) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'PCWSTR'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(153) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(257) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(527) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_FILE *' to 'PDISABLE_CREATE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(562) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_FILE *' to 'PDISABLE_OPEN_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(591) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'PVOID'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(591) : warning C4024: 'OldIoCreateFile' : different types for formal and actual parameter 11
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(632) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_FILE *' to 'PDISABLE_DELETE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(679) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_FILE *' to 'PDISABLE_DELETE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(715) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_FILE *' to 'PDISABLE_CREATE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(742) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_FILE *' to 'PDISABLE_CREATE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(748) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_FILE *' to 'PDISABLE_CREATE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(773) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_FILE *' to 'PDISABLE_DELETE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(800) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_FILE *' to 'PDISABLE_DELETE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(806) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_FILE *' to 'PDISABLE_DELETE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(831) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_FILE *' to 'PDISABLE_OPEN_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(858) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_FILE *' to 'PDISABLE_OPEN_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(864) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_FILE *' to 'PDISABLE_OPEN_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(897) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(901) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(907) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(920) : warning C4018: '<' : signed/unsigned mismatch
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(964) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(973) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(973) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'const wchar_t *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(975) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(982) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(985) : warning C4133: '=' : incompatible types - from 'PFILE_HANDLE_INFO' to 'FILE_HANDLE_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(1016) : warning C4133: '=' : incompatible types - from 'FILE_HANDLE_INFO *' to 'PFILE_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(1038) : warning C4133: '=' : incompatible types - from 'FILE_HANDLE_INFO *' to 'PFILE_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(1038) : warning C4133: '=' : incompatible types - from 'FILE_HANDLE_INFO *' to 'PFILE_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(1063) : warning C4133: '=' : incompatible types - from 'FILE_HANDLE_INFO *' to 'PFILE_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\file.c(1063) : warning C4133: '=' : incompatible types - from 'FILE_HANDLE_INFO *' to 'PFILE_HANDLE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\shadow.c(18) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\shadow.c(92) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'unsigned int *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\shadow.c(140) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\shadow.c(160) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(154) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_PROCESS *' to 'PDISABLE_CREATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(203) : warning C4133: '=' : incompatible types - from 'DISABLE_TERMINATE_PROCESS *' to 'PDISABLE_TERMINATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(226) : warning C4047: '==' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(244) : warning C4047: '==' : 'PVOID *' differs in levels of indirection from 'POBJECT_TYPE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(277) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_PROCESS *' to 'PDISABLE_CREATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(304) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_PROCESS *' to 'PDISABLE_CREATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(310) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_PROCESS *' to 'PDISABLE_CREATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(333) : warning C4133: '=' : incompatible types - from 'DISABLE_TERMINATE_PROCESS *' to 'PDISABLE_TERMINATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(354) : warning C4133: '=' : incompatible types - from 'DISABLE_TERMINATE_PROCESS *' to 'PDISABLE_TERMINATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(360) : warning C4133: '=' : incompatible types - from 'DISABLE_TERMINATE_PROCESS *' to 'PDISABLE_TERMINATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(37) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_REG *' to 'PDISABLE_CREATE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(80) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_REG *' to 'PDISABLE_DELETE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(123) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_REG *' to 'PDISABLE_OPEN_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(252) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_REG *' to 'PDISABLE_CREATE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(281) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_REG *' to 'PDISABLE_DELETE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(310) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_REG *' to 'PDISABLE_OPEN_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(338) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_REG *' to 'PDISABLE_CREATE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(344) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_REG *' to 'PDISABLE_CREATE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(367) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_REG *' to 'PDISABLE_DELETE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(373) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_REG *' to 'PDISABLE_DELETE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(396) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_REG *' to 'PDISABLE_OPEN_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\reg.c(402) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_REG *' to 'PDISABLE_OPEN_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(18) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(36) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(40) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(41) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(44) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PVOID'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(51) : warning C4133: '=' : incompatible types - from 'PSYSTEM_MODULE_INFO' to 'SYSTEM_MODULE_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(61) : warning C4133: '=' : incompatible types - from 'SYSTEM_MODULE_INFO *' to 'PSYSTEM_MODULE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(84) : warning C4133: '=' : incompatible types - from 'SYSTEM_MODULE_INFO *' to 'PSYSTEM_MODULE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(104) : warning C4133: '=' : incompatible types - from 'SYSTEM_MODULE_INFO *' to 'PSYSTEM_MODULE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(127) : warning C4133: '=' : incompatible types - from 'SYSTEM_MODULE_INFO *' to 'PSYSTEM_MODULE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(168) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(197) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(217) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(229) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(258) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(123) : warning C4133: '=' : incompatible types - from 'SYSTEM_MODULE_INFO *' to 'PSYSTEM_MODULE_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(127) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(231) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(243) : warning C4133: '=' : incompatible types - from 'PKERNEL_SYSTEM_CALLBACK_INFO' to 'KERNEL_SYSTEM_CALLBACK_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(347) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(358) : warning C4133: '=' : incompatible types - from 'PKERNEL_SYSTEM_CALLBACK_INFO' to 'KERNEL_SYSTEM_CALLBACK_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(456) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(468) : warning C4133: '=' : incompatible types - from 'PKERNEL_SYSTEM_CALLBACK_INFO' to 'KERNEL_SYSTEM_CALLBACK_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(502) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(518) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(530) : warning C4133: '=' : incompatible types - from 'PKERNEL_SYSTEM_CALLBACK_INFO' to 'KERNEL_SYSTEM_CALLBACK_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(549) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(561) : warning C4133: '=' : incompatible types - from 'PKERNEL_SYSTEM_CALLBACK_INFO' to 'KERNEL_SYSTEM_CALLBACK_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(580) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(592) : warning C4133: '=' : incompatible types - from 'PKERNEL_SYSTEM_CALLBACK_INFO' to 'KERNEL_SYSTEM_CALLBACK_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(610) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(622) : warning C4133: '=' : incompatible types - from 'PKERNEL_SYSTEM_CALLBACK_INFO' to 'KERNEL_SYSTEM_CALLBACK_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(651) : warning C4133: '=' : incompatible types - from 'KERNEL_SYSTEM_CALLBACK_INFO *' to 'PKERNEL_SYSTEM_CALLBACK_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(671) : warning C4133: '=' : incompatible types - from 'KERNEL_SYSTEM_CALLBACK_INFO *' to 'PKERNEL_SYSTEM_CALLBACK_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(691) : warning C4133: '=' : incompatible types - from 'KERNEL_SYSTEM_CALLBACK_INFO *' to 'PKERNEL_SYSTEM_CALLBACK_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(715) : warning C4133: '=' : incompatible types - from 'KERNEL_SYSTEM_CALLBACK_INFO *' to 'PKERNEL_SYSTEM_CALLBACK_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(836) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(863) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(864) : warning C4995: 'wcscat': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(869) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(870) : warning C4995: 'wcscat': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(917) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(930) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(932) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(940) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(944) : warning C4995: 'wcscpy': name was marked as #pragma deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(949) : warning C4133: '=' : incompatible types - from 'PKERNEL_FILTERDRIVER_INFO' to 'KERNEL_FILTERDRIVER_INFO *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(1001) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(1020) : warning C4133: '=' : incompatible types - from 'KERNEL_FILTERDRIVER_INFO *' to 'PKERNEL_FILTERDRIVER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(1040) : warning C4133: '=' : incompatible types - from 'KERNEL_FILTERDRIVER_INFO *' to 'PKERNEL_FILTERDRIVER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(1061) : warning C4133: '=' : incompatible types - from 'KERNEL_FILTERDRIVER_INFO *' to 'PKERNEL_FILTERDRIVER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\kernel.c(1085) : warning C4133: '=' : incompatible types - from 'KERNEL_FILTERDRIVER_INFO *' to 'PKERNEL_FILTERDRIVER_INFO'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(451) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(451) : warning C4024: 'process_killThreadByPspTerminateThreadByPointer' : different types for formal and actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(451) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(451) : warning C4024: 'process_killThreadByPspTerminateThreadByPointer' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(507) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(507) : warning C4024: 'process_getThreadBaseAddr' : different types for formal and actual parameter 1
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(507) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(507) : warning C4024: 'process_getThreadBaseAddr' : different types for formal and actual parameter 2
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(634) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(644) : warning C4133: '=' : incompatible types - from 'PDISABLE_CREATE_PROCESS' to 'DISABLE_CREATE_PROCESS *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(650) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_PROCESS *' to 'PDISABLE_CREATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(759) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(769) : warning C4133: '=' : incompatible types - from 'PDISABLE_TERMINATE_PROCESS' to 'DISABLE_TERMINATE_PROCESS *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(775) : warning C4133: '=' : incompatible types - from 'DISABLE_TERMINATE_PROCESS *' to 'PDISABLE_TERMINATE_PROCESS'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(971) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(981) : warning C4133: '=' : incompatible types - from 'PDISABLE_CREATE_FILE' to 'DISABLE_CREATE_FILE *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(987) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_FILE *' to 'PDISABLE_CREATE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1093) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1103) : warning C4133: '=' : incompatible types - from 'PDISABLE_DELETE_FILE' to 'DISABLE_DELETE_FILE *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1109) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_FILE *' to 'PDISABLE_DELETE_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1214) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1224) : warning C4133: '=' : incompatible types - from 'PDISABLE_OPEN_FILE' to 'DISABLE_OPEN_FILE *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1230) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_FILE *' to 'PDISABLE_OPEN_FILE'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1336) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1346) : warning C4133: '=' : incompatible types - from 'PDISABLE_CREATE_REG' to 'DISABLE_CREATE_REG *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1352) : warning C4133: '=' : incompatible types - from 'DISABLE_CREATE_REG *' to 'PDISABLE_CREATE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1456) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1466) : warning C4133: '=' : incompatible types - from 'PDISABLE_DELETE_REG' to 'DISABLE_DELETE_REG *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1472) : warning C4133: '=' : incompatible types - from 'DISABLE_DELETE_REG *' to 'PDISABLE_DELETE_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1576) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1586) : warning C4133: '=' : incompatible types - from 'PDISABLE_OPEN_REG' to 'DISABLE_OPEN_REG *'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1592) : warning C4133: '=' : incompatible types - from 'DISABLE_OPEN_REG *' to 'PDISABLE_OPEN_REG'
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1816) : warning C4242: '=' : conversion from 'NTSTATUS' to 'BOOLEAN', possible loss of data
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(1999) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2031) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2247) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2248) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2250) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2251) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2252) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2254) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2255) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2256) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2258) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(2259) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c(310) : warning C4715: 'sysmodule_inlineHook_disableLoadDriver' : not all control paths return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1236) : warning C4715: 'process_getProcessThreadInfo' : not all control paths return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1278) : warning C4715: 'process_getThreadBaseAddr' : not all control paths return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\process.c(1360) : warning C4715: 'process_getProcessModuleInfo' : not all control paths return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(195) : warning C4715: 'monitor_updateMonitorInfo' : not all control paths return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(393) : warning C4716: 'monitor_start' : must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\monitor.c(401) : warning C4716: 'monitor_stop' : must return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(203) : warning C4715: 'GetProcessIDByProcessHandle' : not all control paths return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(244) : warning C4715: 'GetParentProcessIDByProcessHandle' : not all control paths return a value
+1>e:\deianeira\sys_win7\deianeira\deianeira\common.c(293) : warning C4715: 'common_callAddrHook' : not all control paths return a value

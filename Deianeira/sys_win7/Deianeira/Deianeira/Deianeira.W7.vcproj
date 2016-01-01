@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Deianeira.W7"
+	ProjectGUID="{D78A577E-E5D3-45DE-8CEE-843734A0D3B4}"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="W7 free|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7 free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7 free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0601;NTDDI_VERSION=0x06010000"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7 checked|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7 checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7 checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0601;NTDDI_VERSION=0x06010000"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7 checked (PREfast)|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7 checked . -cZ -prefast"
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7 checked . -cZ -prefast"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0601;NTDDI_VERSION=0x06010000"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7LH free|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7LH free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7LH free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0600;NTDDI_VERSION=0x06000100"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7LH checked|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7LH checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7LH checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0600;NTDDI_VERSION=0x06000100"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7LH checked (PREfast)|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7LH checked . -cZ -prefast"
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7LH checked . -cZ -prefast"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0600;NTDDI_VERSION=0x06000100"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7NET free|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7NET free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7NET free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0502;NTDDI_VERSION=0x05020100"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7NET checked|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7NET checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7NET checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0502;NTDDI_VERSION=0x05020100"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7NET checked (PREfast)|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7NET checked . -cZ -prefast"
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7NET checked . -cZ -prefast"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0502;NTDDI_VERSION=0x05020100"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7XP free|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7XP free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7XP free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0501;NTDDI_VERSION=0x05010200"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7XP checked|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7XP checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7XP checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0501;NTDDI_VERSION=0x05010200"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="W7XP checked (PREfast)|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\Deianeira.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -W7XP checked . -cZ -prefast"
+				ReBuildCommandLine="$(DDKBUILD_PATH) -W7XP checked . -cZ -prefast"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0501;NTDDI_VERSION=0x05010200"
+				IncludeSearchPath="$(W7BASE)\inc\ddk\"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;asm;mc"
+			>
+			<File
+				RelativePath=".\common.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Deianeira.c"
+				>
+			</File>
+			<File
+				RelativePath=".\file.c"
+				>
+			</File>
+			<File
+				RelativePath=".\kernel.c"
+				>
+			</File>
+			<File
+				RelativePath=".\LDasm.c"
+				>
+			</File>
+			<File
+				RelativePath=".\monitor.c"
+				>
+			</File>
+			<File
+				RelativePath=".\monitor2.c"
+				>
+			</File>
+			<File
+				RelativePath=".\process.c"
+				>
+			</File>
+			<File
+				RelativePath=".\protection.c"
+				>
+			</File>
+			<File
+				RelativePath=".\reg.c"
+				>
+			</File>
+			<File
+				RelativePath=".\shadow.c"
+				>
+			</File>
+			<File
+				RelativePath=".\sysmodule.c"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx"
+			>
+			<File
+				RelativePath=".\common.h"
+				>
+			</File>
+			<File
+				RelativePath=".\file.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\common\ioctlcode.h"
+				>
+			</File>
+			<File
+				RelativePath=".\kernel.h"
+				>
+			</File>
+			<File
+				RelativePath=".\LDasm.h"
+				>
+			</File>
+			<File
+				RelativePath=".\monitor.h"
+				>
+			</File>
+			<File
+				RelativePath=".\monitor2.h"
+				>
+			</File>
+			<File
+				RelativePath=".\process.h"
+				>
+			</File>
+			<File
+				RelativePath=".\protection.h"
+				>
+			</File>
+			<File
+				RelativePath=".\reg.h"
+				>
+			</File>
+			<File
+				RelativePath=".\shadow.h"
+				>
+			</File>
+			<File
+				RelativePath=".\sysmodule.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;mc;ico;cur;bmp;dlg;rc2"
+			>
+		</Filter>
+		<Filter
+			Name="Special Files"
+			Filter="*"
+			>
+			<File
+				RelativePath=".\ddkbldenv.cmd"
+				>
+			</File>
+			<File
+				RelativePath=".\ddkpostbld.cmd"
+				>
+			</File>
+			<File
+				RelativePath=".\ddkprebld.cmd"
+				>
+			</File>
+			<File
+				RelativePath=".\Deianeira.vsprops"
+				>
+			</File>
+			<File
+				RelativePath=".\makefile"
+				>
+			</File>
+			<File
+				RelativePath=".\sources"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,49 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining g:\ntoskrnl\ksbinsword directory for files to compile.
+Compiling (NoSync) g:\ntoskrnl\ksbinsword directory ********************
+'nmake.exe /nologo BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 NOPASS0=1 386=1'
+cl -nologo -Ii386\ -I. -IF:\WINDDK\3790.1830\inc\mfc42 -I. -Iobjchk_wxp_x86\i386 -IF:\WINDDK\3790.1830\inc\wxp -IF:\WINDDK\3790.1830\inc\wxp -IF:\WINDDK\3790.1830\inc\ddk\wxp -IF:\WINDDK\3790.1830\inc\ddk\wdm\wxp -IF:\WINDDK\3790.1830\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0501 /DWINVER=0x0501 -D_WIN32_IE=0x0603    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDMACHINE__=WinDDK -DFPO=0  -DNDEBUG -D_DLL=1      /c /Zl /Zp8 /Gy /Gm- -cbstring /W3 /WX /Gz  /GX-  /GR- /GF /GS /G6 /Ze /Gi- /QIfdiv- /hotpatch -Z7 /Od /Oi  /Oy-   -FIF:\WINDDK\3790.1830\inc\wxp\warning.h   .\ksbinsword.c 
+ksbinsword.c
+
+Stop.
+Linking g:\ntoskrnl\ksbinsword directory ********************
+'nmake.exe /nologo BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:objchk_wxp_x86\i386\KsBinSword.sys -machine:ix86 @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nm126.tmp
+Microsoft (R) Incremental Linker Version 7.10.4035
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-OPT:ICF 
+-IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+-INCREMENTAL:NO 
+-FULLBUILD 
+/release 
+-NODEFAULTLIB 
+/WX 
+-debug 
+-debugtype:cv 
+-version:5.1 
+-osversion:5.1 
+/functionpadmin:5 
+/safeseh 
+/pdbcompress 
+-STACK:0x40000,0x1000 
+-driver 
+-base:0x10000 
+-align:0x80 /stub:F:\WINDDK\3790.1830\lib\wxp\stub512.com 
+-subsystem:native,5.01 
+-entry:GsDriverEntry@8 
+-out:objchk_wxp_x86\i386\KsBinSword.sys 
+objchk_wxp_x86\i386\ksbinsword.obj 
+F:\WINDDK\3790.1830\lib\wxp\i386\BufferOverflowK.lib 
+F:\WINDDK\3790.1830\lib\wxp\i386\ntoskrnl.lib 
+F:\WINDDK\3790.1830\lib\wxp\i386\hal.lib 
+F:\WINDDK\3790.1830\lib\wxp\i386\wmilib.lib 
+F:\WINDDK\3790.1830\lib\wxp\i386\sehupd.lib 
+	echo Skip Binplace:
+Skip Binplace:
+
+Stop.

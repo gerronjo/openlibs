@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A87118DE-313C-433A-B239-E2C7E00D8444}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RootNamespace>Deianeira</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>Pure</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ForceFileOutput>
+      </ForceFileOutput>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Management">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common\lib\QQwry\QQwry.cpp" />
+    <ClCompile Include="..\common\common.cpp" />
+    <ClCompile Include="..\common\common_net.cpp" />
+    <ClCompile Include="..\common\process.cpp" />
+    <ClCompile Include="..\common\sigverif.cpp" />
+    <ClCompile Include="..\common\sysmodule.cpp" />
+    <ClCompile Include="AboutForm.cpp" />
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="CatchForm.cpp" />
+    <ClCompile Include="Deianeira.cpp" />
+    <ClCompile Include="DisasmForm.cpp" />
+    <ClCompile Include="EventlogForm.cpp" />
+    <ClCompile Include="FileRenameForm.cpp" />
+    <ClCompile Include="FileUnlockViewForm.cpp" />
+    <ClCompile Include="kernel.cpp" />
+    <ClCompile Include="ntreg.cpp" />
+    <ClCompile Include="ntreg_init.cpp" />
+    <ClCompile Include="OtherCleanSetForm.cpp" />
+    <ClCompile Include="OtherCleanTraceForm.cpp" />
+    <ClCompile Include="OtherShareCreateForm.cpp" />
+    <ClCompile Include="OtherUserChangeForm.cpp" />
+    <ClCompile Include="OtherUserCreateForm.cpp" />
+    <ClCompile Include="other_table_export_form.cpp" />
+    <ClCompile Include="other_table_infect_form.cpp" />
+    <ClCompile Include="other_table_view_form.cpp" />
+    <ClCompile Include="pe.cpp" />
+    <ClCompile Include="ProcessFindModuleForm.cpp" />
+    <ClCompile Include="ProcessHandleInfoForm.cpp" />
+    <ClCompile Include="ProcessInjectDllByHookMsg1Form.cpp" />
+    <ClCompile Include="ProcessInjectDllByHookMsg2Form.cpp" />
+    <ClCompile Include="ProcessInjectDllForm.cpp" />
+    <ClCompile Include="ProcessModuleForm.cpp" />
+    <ClCompile Include="ProcessSigverifForm.cpp" />
+    <ClCompile Include="ProcessThreadForm.cpp" />
+    <ClCompile Include="RegUnlockViewForm.cpp" />
+    <ClCompile Include="reg_dword_change_form.cpp" />
+    <ClCompile Include="reg_find_form.cpp" />
+    <ClCompile Include="reg_multi_change_form.cpp" />
+    <ClCompile Include="reg_string_change_form.cpp" />
+    <ClCompile Include="ServiceCreateForm.cpp" />
+    <ClCompile Include="ServiceForm.cpp" />
+    <ClCompile Include="shadow_ssdt.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="OD_DASM\disasm.cpp" />
+    <ClCompile Include="WinFindForm.cpp" />
+    <ClCompile Include="WinPropertyForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\common\ioctlcode.h" />
+    <ClInclude Include="..\..\..\common\lib\QQwry\QQwry.h" />
+    <ClInclude Include="..\..\..\common\lib\sqlite3\sqlite3.h" />
+    <ClInclude Include="..\common\common.h" />
+    <ClInclude Include="..\common\common_net.h" />
+    <ClInclude Include="..\common\process.h" />
+    <ClInclude Include="..\common\sigverif.h" />
+    <ClInclude Include="..\common\sysmodule.h" />
+    <ClInclude Include="AboutForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="CatchForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DisasmForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EventlogForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FileRenameForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FileUnlockViewForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="kernel.h" />
+    <ClInclude Include="ListViewItemComparer.h" />
+    <ClInclude Include="monitor.h" />
+    <ClInclude Include="ntreg.h" />
+    <ClInclude Include="ntreg_init.h" />
+    <ClInclude Include="OtherCleanSetForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="OtherCleanTraceForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="OtherShareCreateForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="OtherUserChangeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="OtherUserCreateForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="other_table_export_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="other_table_infect_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="other_table_view_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="pe.h" />
+    <ClInclude Include="ProcessFindModuleForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProcessHandleInfoForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProcessInjectDllByHookMsg1Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProcessInjectDllByHookMsg2Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProcessInjectDllForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProcessModuleForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProcessSigverifForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProcessThreadForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegUnlockViewForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="reg_dword_change_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="reg_find_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="reg_multi_change_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="reg_string_change_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ServiceCreateForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ServiceForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="shadow_ssdt.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="OD_DASM\disasm.h" />
+    <ClInclude Include="WinFindForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="WinPropertyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\attachment\LSP.reg" />
+    <None Include="..\..\..\attachment\SafeBoot.reg" />
+    <_EmbedManagedResourceFile Include="..\..\..\common\icon\win.cur" />
+    <None Include="..\..\..\release\Deianeira.config" />
+    <None Include="..\..\..\release\Deianeira.sys" />
+    <None Include="..\..\..\release\Plugin.dll" />
+    <None Include="app.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatchForm.resx">
+      <DependentUpon>CatchForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisasmForm.resx">
+      <DependentUpon>DisasmForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventlogForm.resx">
+      <DependentUpon>EventlogForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileRenameForm.resx">
+      <DependentUpon>FileRenameForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileUnlockViewForm.resx">
+      <DependentUpon>FileUnlockViewForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resX">
+      <DependentUpon>Form1.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherCleanSetForm.resx">
+      <DependentUpon>OtherCleanSetForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherCleanTraceForm.resx">
+      <DependentUpon>OtherCleanTraceForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherShareCreateForm.resx">
+      <DependentUpon>OtherShareCreateForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherUserChangeForm.resx">
+      <DependentUpon>OtherUserChangeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherUserCreateForm.resx">
+      <DependentUpon>OtherUserCreateForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="other_table_export_form.resx">
+      <DependentUpon>other_table_export_form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="other_table_infect_form.resx">
+      <DependentUpon>other_table_infect_form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="other_table_view_form.resx">
+      <DependentUpon>other_table_view_form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessFindModuleForm.resx">
+      <DependentUpon>ProcessFindModuleForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessHandleInfoForm.resx">
+      <DependentUpon>ProcessHandleInfoForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInjectDllByHookMsg1Form.resx">
+      <DependentUpon>ProcessInjectDllByHookMsg1Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInjectDllByHookMsg2Form.resx">
+      <DependentUpon>ProcessInjectDllByHookMsg2Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInjectDllForm.resx">
+      <DependentUpon>ProcessInjectDllForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessModuleForm.resx">
+      <DependentUpon>ProcessModuleForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessSigverifForm.resx">
+      <DependentUpon>ProcessSigverifForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessThreadForm.resx">
+      <DependentUpon>ProcessThreadForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegUnlockViewForm.resx">
+      <DependentUpon>RegUnlockViewForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg_dword_change_form.resx">
+      <DependentUpon>reg_dword_change_form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg_find_form.resx">
+      <DependentUpon>reg_find_form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg_multi_change_form.resx">
+      <DependentUpon>reg_multi_change_form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg_string_change_form.resx">
+      <DependentUpon>reg_string_change_form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceCreateForm.resx">
+      <DependentUpon>ServiceCreateForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForm.resx">
+      <DependentUpon>ServiceForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinFindForm.resx">
+      <DependentUpon>WinFindForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinPropertyForm.resx">
+      <DependentUpon>WinPropertyForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

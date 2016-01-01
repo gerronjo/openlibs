@@ -1,0 +1,357 @@
+BUILD: Examining d:\deiane~1\sys_win7\deiane~1\deiane~1 directory for files to compile.
+1>Compiling and Linking d:\deiane~1\sys_win7\deiane~1\deiane~1 *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1: TARGETPATH is obj
+1> cl @d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\cl.rsp
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386/"
+1> /FC
+1> /Ii386
+1> /I.
+1> /Id:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386
+1> /IC:\WinDDK\760016~1.1\inc\api
+1> /IC:\WinDDK\760016~1.1\inc\api
+1> /IC:\WinDDK\760016~1.1\inc\ddk
+1> /IC:\WinDDK\760016~1.1\inc\ddk
+1> /IC:\WinDDK\760016~1.1\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0601
+1> /DWINVER=0x0601
+1> /D_WIN32_IE=0x0800
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /DNDEBUG
+1> /D_DLL=1
+1> /DNDEBUG
+1> /DNTDDI_VERSION=0x06010000
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> -cbstring
+1> /W3
+1> /WX
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Oxs
+1> /Oy-
+1> /Zi
+1> /Fdd:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /wd4603
+1> /wd4627
+1> /typedil-
+1> /FIC:\WinDDK\760016~1.1\inc\api\warning.h
+1> .\common.c .\ldasm.c .\monitor.c .\protection.c .\process.c .\file.c .\shadow.c .\monitor2.c .\deianeira.c 
+1>common.c
+1>d:\deianeira\sys_win7\deianeira\deianeira\common.c(29) : error C2220: warning treated as error - no 'object' file generated
+1>errors in directory d:\deiane~1\sys_win7\deiane~1\deiane~1
+1>d:\deianeira\sys_win7\deianeira\deianeira\common.c(29) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\common.c(29) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'PCWSTR'
+1>warnings in directory d:\deiane~1\sys_win7\deiane~1\deiane~1
+1>d:\deianeira\sys_win7\deianeira\deianeira\common.c(29) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'PCWSTR'
+1>ldasm.c
+1>monitor.c
+1>protection.c
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(16) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(16) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(16) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(16) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(41) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(41) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(85) : warning C4047: '==' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(85) : warning C4047: '==' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(104) : warning C4047: '==' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(104) : warning C4047: '==' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(153) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(153) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(160) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(160) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(179) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(179) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(214) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(214) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(244) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(244) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(268) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(268) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(298) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(298) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(324) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(324) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(352) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(352) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(375) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(375) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(384) : warning C4047: 'return' : 'LONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(384) : warning C4047: 'return' : 'LONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(397) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(397) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(406) : warning C4047: 'return' : 'BOOL' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(406) : warning C4047: 'return' : 'BOOL' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(424) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(424) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(425) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(425) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(429) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(429) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(434) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(434) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(441) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(441) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(442) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(442) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(446) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(446) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(451) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(451) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(465) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(465) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(466) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(466) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PCLIENT_ID)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(470) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(470) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(475) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(475) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,HANDLE,PCLIENT_ID,PCONTEXT,PUSER_STACK,BOOLEAN)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(494) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(494) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(495) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(495) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(496) : warning C4047: '=' : 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(496) : warning C4047: '=' : 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(497) : warning C4047: '=' : 'HWND (__stdcall *)(void)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(497) : warning C4047: '=' : 'HWND (__stdcall *)(void)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(498) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(498) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(499) : warning C4047: '=' : 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(499) : warning C4047: '=' : 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(500) : warning C4047: '=' : 'HANDLE (__stdcall *)(HWND,ULONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(500) : warning C4047: '=' : 'HANDLE (__stdcall *)(HWND,ULONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(501) : warning C4047: '=' : 'LONG (__stdcall *)(HWND,int,LONG,BOOL)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(501) : warning C4047: '=' : 'LONG (__stdcall *)(HWND,int,LONG,BOOL)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(502) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,int)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(502) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,int)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(503) : warning C4047: '=' : 'HWND (__stdcall *)(LONG,LONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(503) : warning C4047: '=' : 'HWND (__stdcall *)(LONG,LONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(508) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(508) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(509) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(509) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(510) : warning C4047: '=' : 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(510) : warning C4047: '=' : 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(511) : warning C4047: '=' : 'HWND (__stdcall *)(void)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(511) : warning C4047: '=' : 'HWND (__stdcall *)(void)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(512) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(512) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(513) : warning C4047: '=' : 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(513) : warning C4047: '=' : 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(514) : warning C4047: '=' : 'HANDLE (__stdcall *)(HWND,ULONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(514) : warning C4047: '=' : 'HANDLE (__stdcall *)(HWND,ULONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(515) : warning C4047: '=' : 'LONG (__stdcall *)(HWND,int,LONG,BOOL)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(515) : warning C4047: '=' : 'LONG (__stdcall *)(HWND,int,LONG,BOOL)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(516) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,int)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(516) : warning C4047: '=' : 'BOOL (__stdcall *)(HWND,int)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(517) : warning C4047: '=' : 'HWND (__stdcall *)(LONG,LONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(517) : warning C4047: '=' : 'HWND (__stdcall *)(LONG,LONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(528) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(528) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(529) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(529) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(530) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(530) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(531) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(531) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(532) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(532) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(533) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(533) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(534) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(534) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(535) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(535) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(536) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(536) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(537) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(537) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(542) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(542) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(543) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(543) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(544) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(544) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(545) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(545) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(546) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(546) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(547) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(547) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(548) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(548) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(549) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(549) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(550) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(550) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(551) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(551) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(578) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(578) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(579) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(579) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(580) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(580) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(581) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(581) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(582) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(582) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(583) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(583) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(584) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(584) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(585) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(585) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(586) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(586) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(587) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(587) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(592) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(592) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(HDESK,HWND,BOOL,DWORD,UINT,HWND *,PUINT)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(593) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(593) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(594) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(594) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(595) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(595) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(void)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(596) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(596) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(597) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(597) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(DWORD,UINT,WPARAM,LPARAM)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(598) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(598) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HANDLE (__stdcall *)(HWND,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(599) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(599) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'LONG (__stdcall *)(HWND,int,LONG,BOOL)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(600) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(600) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'BOOL (__stdcall *)(HWND,int)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(601) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\protection.c(601) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'HWND (__stdcall *)(LONG,LONG)'
+1>process.c
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(27) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(27) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(27) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(27) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(276) : warning C4133: 'function' : incompatible types - from 'unsigned short [24]' to 'LPTSTR'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(276) : warning C4133: 'function' : incompatible types - from 'unsigned short [24]' to 'LPTSTR'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(276) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PVOID'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(276) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PVOID'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(307) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(307) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(374) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(374) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(404) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(404) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(506) : warning C4047: 'return' : 'BOOLEAN' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(506) : warning C4047: 'return' : 'BOOLEAN' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(600) : warning C4022: 'PsLookupThreadByThreadId' : pointer mismatch for actual parameter 1
+1>d:\deianeira\sys_win7\deianeira\deianeira\process.c(600) : warning C4022: 'PsLookupThreadByThreadId' : pointer mismatch for actual parameter 1
+1>file.c
+1>d:\deianeira\sys_win7\deianeira\deianeira\file.c(35) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\file.c(35) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\file.c(35) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'PCWSTR'
+1>d:\deianeira\sys_win7\deianeira\deianeira\file.c(35) : warning C4133: 'function' : incompatible types - from 'LPTSTR' to 'PCWSTR'
+1>d:\deianeira\sys_win7\deianeira\deianeira\file.c(134) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>d:\deianeira\sys_win7\deianeira\deianeira\file.c(134) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>d:\deianeira\sys_win7\deianeira\deianeira\file.c(238) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>d:\deianeira\sys_win7\deianeira\deianeira\file.c(238) : warning C4002: too many actual parameters for macro 'RtlZeroMemory'
+1>shadow.c
+1>d:\deianeira\sys_win7\deianeira\deianeira\shadow.c(92) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\shadow.c(92) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\shadow.c(92) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'unsigned int *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\shadow.c(92) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'unsigned int *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\shadow.c(140) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\shadow.c(140) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\shadow.c(160) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>d:\deianeira\sys_win7\deianeira\deianeira\shadow.c(160) : warning C4047: 'return' : 'ULONG' differs in levels of indirection from 'void *'
+1>monitor2.c
+1>d:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(148) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(148) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(148) : warning C4047: '==' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\deianeira\sys_win7\deianeira\deianeira\monitor2.c(148) : warning C4047: '==' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>deianeira.c
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(523) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(523) : error C2220: warning treated as error - no 'object' file generated
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(523) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PIO_STATUS_BLOCK,PLARGE_INTEGER,ULONG,ULONG,ULONG,ULONG,PVOID,ULONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(523) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PIO_STATUS_BLOCK,PLARGE_INTEGER,ULONG,ULONG,ULONG,ULONG,PVOID,ULONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(529) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PIO_STATUS_BLOCK,PLARGE_INTEGER,ULONG,ULONG,ULONG,ULONG,PVOID,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(529) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PIO_STATUS_BLOCK,PLARGE_INTEGER,ULONG,ULONG,ULONG,ULONG,PVOID,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(553) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PIO_STATUS_BLOCK,PLARGE_INTEGER,ULONG,ULONG,ULONG,ULONG,PVOID,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(553) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PIO_STATUS_BLOCK,PLARGE_INTEGER,ULONG,ULONG,ULONG,ULONG,PVOID,ULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(597) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,ULONG,PUNICODE_STRING,ULONG,PULONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(597) : warning C4047: '=' : 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,ULONG,PUNICODE_STRING,ULONG,PULONG)' differs in levels of indirection from 'unsigned int'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(603) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,ULONG,PUNICODE_STRING,ULONG,PULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(603) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,ULONG,PUNICODE_STRING,ULONG,PULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(627) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,ULONG,PUNICODE_STRING,ULONG,PULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(627) : warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,ULONG,PUNICODE_STRING,ULONG,PULONG)'
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(684) : warning C4022: 'PsLookupProcessByProcessId' : pointer mismatch for actual parameter 1
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(684) : warning C4022: 'PsLookupProcessByProcessId' : pointer mismatch for actual parameter 1
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(712) : warning C4022: 'PsLookupThreadByThreadId' : pointer mismatch for actual parameter 1
+1>d:\deianeira\sys_win7\deianeira\deianeira\deianeira.c(712) : warning C4022: 'PsLookupThreadByThreadId' : pointer mismatch for actual parameter 1
+1>Generating Code...
+1> link.exe /out:d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\Deianeira.sys /machine:ix86 @d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>/functionpadmin:5 
+1>/safeseh 
+1>/pdbcompress 
+1>/STACK:0x40000,0x1000 
+1>/driver 
+1>/base:0x10000 
+1>/subsystem:native,6.01 
+1>/entry:GsDriverEntry@8 
+1>/out:d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\Deianeira.sys 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\common.obj 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\ldasm.obj 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\monitor.obj 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\protection.obj 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\process.obj 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\file.obj 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\shadow.obj 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\monitor2.obj 
+1>d:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\deianeira.obj 
+1>C:\WinDDK\760016~1.1\lib\win7\i386\BufferOverflowK.lib 
+1>C:\WinDDK\760016~1.1\lib\win7\i386\ntoskrnl.lib 
+1>C:\WinDDK\760016~1.1\lib\win7\i386\hal.lib 
+1>C:\WinDDK\760016~1.1\lib\win7\i386\wmilib.lib 
+1>LINK : fatal error LNK1181: cannot open input file 'd:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\common.obj'
+1>link : error LNK1181: cannot open input file 'd:\deiane~1\sys_win7\deiane~1\deiane~1\objfre_win7_x86\i386\common.obj'

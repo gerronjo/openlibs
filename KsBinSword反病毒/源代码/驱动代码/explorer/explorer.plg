@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: explorer - Win32 XP Checked--------------------
+</h3>
+
+DDKBUILD VERSION 3.12.35 FREEWARE FROM HOLLIS TECHNOLOGY SOLUTIONS
+Comments? Suggestions? info@hollistech.com
+
+DDKBUILD using NET DDK in directory . 
+ for chk version (basedir F:\WINDDK\3790.1830 extension chk_wxp_x86)
+ commandline: " build -e          " 
+
+BUILD: Adding /Y to COPYCMD so xcopy ops won't hang.
+BUILD: Object root set to: ==> objchk_wxp_x86
+BUILD: Compile and Link for i386
+BUILD: Loading F:\WINDDK\3790.1830\build.dat...
+BUILD: Computing Include file dependencies:
+BUILD: Examining g:\ntoskrnl\explorer directory for files to compile.
+    g:\ntoskrnl\explorer 
+    g:\ntoskrnl\explorer - 1 source files (651 lines)
+BUILD: Saving F:\WINDDK\3790.1830\build.dat...
+BUILD: Compiling (NoSync) g:\ntoskrnl\explorer directory
+Compiling - explorer.c for i386
+BUILD: Linking g:\ntoskrnl\explorer directory
+Linking Executable - objchk_wxp_x86\i386\explorer.sys for i386
+BUILD: Done
+
+    2 files compiled
+    1 executable built
+=============== build warnings ======================
+ 
+ 
+build complete status 0
+building browse information files
+
+
+
+<h3>Results</h3>
+explorer.sys - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

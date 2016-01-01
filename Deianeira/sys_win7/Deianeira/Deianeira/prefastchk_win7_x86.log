@@ -1,0 +1,721 @@
+-----------------------------------------------------------------------------
+Microsoft (R) PREfast Version 9.0.21022.100208.
+Copyright (C) Microsoft Corporation. All rights reserved.
+-----------------------------------------------------------------------------
+Contents of defect log: PREfast_defects_chk_win7_x86.xml
+-----------------------------------------------------------------------------
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (137): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetProcessImageNameByProcessHandle (44)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (137): warning 28193: 'ustrPathName.Buffer' holds a value that must be examined.
+	FUNCTION: GetProcessImageNameByProcessHandle (44)
+	PATH: 45 46 47 48 49 50 51 52 53 54 55 59 61 67 77 83 89 94 96 101 107 113 116 118 124 131 137 138 140 142 144 145 
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (137): warning 6014: (PFD)Leaking memory 'ustrPathName.Buffer'.
+	FUNCTION: GetProcessImageNameByProcessHandle (44)
+	PATH: 45 46 47 48 49 50 51 52 53 54 55 59 61 67 77 83 89 94 96 101 107 113 116 118 124 131 137 138 140 142 144 145 
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (153): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: GetProcessImageNameByProcessHandle (44)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (173): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetProcessIDByProcessHandle (165)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (197): warning 6001: (PFD)Using uninitialized memory 'pProcessBasicInformation'.
+	FUNCTION: GetProcessIDByProcessHandle (165)
+	PATH: 167 168 169 173 175 182 184 193 195 197 
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (214): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetParentProcessIDByProcessHandle (206)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (238): warning 6001: (PFD)Using uninitialized memory 'pProcessBasicInformation'.
+	FUNCTION: GetParentProcessIDByProcessHandle (206)
+	PATH: 208 209 210 214 216 223 225 234 236 238 
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (324): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (327): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (330): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (333): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (336): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (339): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (342): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (345): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (348): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (351): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (354): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (357): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (360): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (363): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (366): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (369): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (372): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (375): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (378): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (381): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (384): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (387): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (390): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (393): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (396): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (399): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (402): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (405): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (408): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (411): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: common_getHandleTypeName (320)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (94): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetProcessImageNameByProcessHandle (44)
+
+e:\deianeira\sys_win7\deianeira\deianeira\common.c (94): warning 28197: Possibly leaking memory 'pBuffer'.
+	FUNCTION: GetProcessImageNameByProcessHandle (44)
+	PATH: 45 46 47 48 49 50 51 52 53 54 55 59 61 67 77 83 89 94 96 101 107 108 109 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (1093): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (1214): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (1336): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (1456): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (1576): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (1999): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2031): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2193): warning 28101: The Drivers module has inferred that the current function is a DRIVER_INITIALIZE function:  This is informational only. No problem has been detected.
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2210): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH DispatchCreateClose;' before the current first declaration of DispatchCreateClose.
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2210): warning 28169: The dispatch function 'DispatchCreateClose' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2211): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH DispatchCreateClose;' before the current first declaration of DispatchCreateClose.
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2211): warning 28169: The dispatch function 'DispatchCreateClose' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2212): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH DispatchIoctl;' before the current first declaration of DispatchIoctl.
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2212): warning 28169: The dispatch function 'DispatchIoctl' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2213): warning 28155: The function being assigned or passed should be a DRIVER_UNLOAD function:  Add the declaration 'DRIVER_UNLOAD DriverUnload;' before the current first declaration of DriverUnload.
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2219): warning 6014: (PFD)Leaking memory 'pDevObj'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 2266 2267 2269 2270 2271 2273 2274 2276 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2247): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2248): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2250): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2251): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2252): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2254): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2255): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2256): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2258): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2259): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DriverEntry (2193)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2265): warning 6011: (PFD)Dereferencing NULL pointer 'pDisableCreateFileInfo'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2266): warning 6011: (PFD)Dereferencing NULL pointer 'pDisableDeleteFileInfo'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 2266 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2267): warning 6011: (PFD)Dereferencing NULL pointer 'pDisableOpenFileInfo'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 2266 2267 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2269): warning 6011: (PFD)Dereferencing NULL pointer 'pDisableCreateRegInfo'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 2266 2267 2269 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2270): warning 6011: (PFD)Dereferencing NULL pointer 'pDisableDeleteRegInfo'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 2266 2267 2269 2270 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2271): warning 6011: (PFD)Dereferencing NULL pointer 'pDisableOpenRegInfo'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 2266 2267 2269 2270 2271 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2273): warning 6011: (PFD)Dereferencing NULL pointer 'pMonitorProcessFilterInfo'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 2266 2267 2269 2270 2271 2273 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (2274): warning 6011: (PFD)Dereferencing NULL pointer 'pMonitorPathFilterInfo'.
+	FUNCTION: DriverEntry (2193)
+	PATH: 2196 2198 2200 2201 2204 2206 2207 2210 2211 2212 2213 2216 2222 2228 2231 2239 2245 2247 2248 2250 2251 2252 2254 2255 2256 2258 2259 2262 2263 2265 2266 2267 2269 2270 2271 2273 2274 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (634): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (635): warning 6011: (PFD)Dereferencing NULL pointer 'p'.
+	FUNCTION: DispatchIoctl (43)
+	PATH: 45 46 47 48 49 51 54 57 60 66 67 625 629 632 634 635 
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (759): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\deianeira.c (971): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: DispatchIoctl (43)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (181): warning 28155: The function being assigned or passed should be a IO_COMPLETION_ROUTINE function:  Add the declaration 'IO_COMPLETION_ROUTINE file_completionRoutine;' before the current first declaration of file_completionRoutine.
+	FUNCTION: file_setFileAttributes (108)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (282): warning 28155: The function being assigned or passed should be a IO_COMPLETION_ROUTINE function:  Add the declaration 'IO_COMPLETION_ROUTINE file_completionRoutine;' before the current first declaration of file_completionRoutine.
+	FUNCTION: file_deleteFile (201)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (897): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: file_getFileHandleInfo (880)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (901): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: file_getFileHandleInfo (880)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (907): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: file_getFileHandleInfo (880)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (964): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: file_getFileHandleInfo (880)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (971): warning 6011: (PFD)Dereferencing NULL pointer 'pFile_name_information'. See line 967 for an earlier location where this can occur.
+	FUNCTION: file_getFileHandleInfo (880)
+	PATH: 881 882 883 884 885 886 887 888 889 890 891 892 893 897 898 901 904 910 920 920 922 927 954 958 959 962 920 920 922 927 954 958 959 962 964 965 967 969 971 
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (975): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: file_getFileHandleInfo (880)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (980): warning 6011: (PFD)Dereferencing NULL pointer 'p'.
+	FUNCTION: file_getFileHandleInfo (880)
+	PATH: 881 882 883 884 885 886 887 888 889 890 891 892 893 897 898 901 904 910 920 920 922 927 954 958 959 962 920 920 922 927 954 958 959 962 964 965 967 969 971 973 975 976 978 980 
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (982): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: file_getFileHandleInfo (880)
+
+e:\deianeira\sys_win7\deianeira\deianeira\file.c (985): warning 6011: (PFD)Dereferencing NULL pointer 'pFileHandleInfo'. See line 980 for an earlier location where this can occur.
+	FUNCTION: file_getFileHandleInfo (880)
+	PATH: 881 882 883 884 885 886 887 888 889 890 891 892 893 897 898 901 904 910 920 920 922 927 954 958 959 962 964 965 967 969 971 973 975 976 978 980 981 982 983 985 986 990 920 920 922 927 954 958 959 962 964 965 967 969 971 973 975 976 978 980 981 982 983 985 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (1001): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_filterDriverEnum (993)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (1002): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelFilterDriverInfo'.
+	FUNCTION: kernel_filterDriverEnum (993)
+	PATH: 995 996 1001 1002 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (1020): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelFilterDriverInfoHead'. See line 1002 for an earlier location where this can occur.
+	FUNCTION: kernel_filterDriverEnum (993)
+	PATH: 995 996 1001 1002 1004 1005 1007 1012 1013 1015 1020 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (1115): warning 28175: The 'AttachedDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverKill (1104)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (1117): warning 28175: The 'DeviceObjectExtension' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverKill (1104)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (1128): warning 28175: The 'AttachedDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverKill (1104)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (1134): warning 28175: The 'AttachedDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverKill (1104)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (1136): warning 28175: The 'DeviceObjectExtension' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverKill (1104)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (127): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_systemCallbackFind (91)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (231): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_systemCallbackEnumBugCheckReasonCallback (206)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (238): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelSystemCallbackInfo_tmp'.
+	FUNCTION: kernel_systemCallbackEnumBugCheckReasonCallback (206)
+	PATH: 208 209 210 211 216 219 227 227 229 231 233 236 238 239 241 243 244 246 227 227 229 231 233 236 238 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (243): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelSystemCallbackInfo'. See line 238 for an earlier location where this can occur.
+	FUNCTION: kernel_systemCallbackEnumBugCheckReasonCallback (206)
+	PATH: 208 209 210 211 216 219 227 227 229 231 233 236 238 239 241 243 244 246 227 227 229 231 233 236 238 239 241 243 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (347): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_systemCallbackEnumBugCheckCallback (322)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (354): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelSystemCallbackInfo_tmp'.
+	FUNCTION: kernel_systemCallbackEnumBugCheckCallback (322)
+	PATH: 324 325 326 327 332 335 343 343 345 347 349 352 354 355 356 358 359 343 343 345 347 349 352 354 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (358): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelSystemCallbackInfo'. See line 354 for an earlier location where this can occur.
+	FUNCTION: kernel_systemCallbackEnumBugCheckCallback (322)
+	PATH: 324 325 326 327 332 335 343 343 345 347 349 352 354 355 356 358 359 343 343 345 347 349 352 354 355 356 358 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (454): warning 28175: The 'MajorFunction' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_systemCallbackEnumShutdownCallback (428)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (456): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_systemCallbackEnumShutdownCallback (428)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (463): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelSystemCallbackInfo_tmp'.
+	FUNCTION: kernel_systemCallbackEnumShutdownCallback (428)
+	PATH: 430 431 432 433 434 435 440 443 450 450 452 453 454 456 458 461 463 464 465 466 468 469 450 450 452 453 454 456 458 461 463 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (468): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelSystemCallbackInfo'. See line 463 for an earlier location where this can occur.
+	FUNCTION: kernel_systemCallbackEnumShutdownCallback (428)
+	PATH: 430 431 432 433 434 435 440 443 450 450 452 453 454 456 458 461 463 464 465 466 468 469 450 450 452 453 454 456 458 461 463 464 465 466 468 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (502): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_systemCallbackEnum (485)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (518): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_systemCallbackEnum (485)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (549): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_systemCallbackEnum (485)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (580): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_systemCallbackEnum (485)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (610): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_systemCallbackEnum (485)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (616): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelSystemCallbackInfo_tmp'.
+	FUNCTION: kernel_systemCallbackEnum (485)
+	PATH: 487 488 490 491 492 493 495 496 497 502 503 506 507 509 514 514 516 514 514 516 514 514 537 538 540 545 545 547 545 545 547 545 545 567 568 571 576 576 578 576 576 578 576 576 598 599 601 606 606 608 606 606 608 610 612 614 616 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (764): warning 6001: (PFD)Using uninitialized memory 'SpinLock'.
+	FUNCTION: kernel_systemCallbackKill (736)
+	PATH: 738 739 740 741 746 751 753 753 756 759 787 753 753 756 759 761 764 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (836): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (836): warning 28197: Possibly leaking memory 'pDirectoryBasicInformation'.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+	PATH: 802 803 804 804 805 806 807 808 809 810 811 811 812 813 814 819 822 825 834 836 838 844 845 848 850 851 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (863): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (864): warning 28719: Banned API Usage:  wcscat is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (869): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (870): warning 28719: Banned API Usage:  wcscat is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (896): warning 28175: The 'AttachedDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (899): warning 28175: The 'AttachedDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (917): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (925): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelFilterDriverInfo_tmp'.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+	PATH: 802 803 804 804 805 806 807 808 809 810 811 811 812 813 814 819 822 825 834 836 838 844 845 848 854 856 861 869 870 871 875 878 881 856 861 869 870 871 875 878 885 891 893 896 899 901 903 905 906 907 908 909 910 911 912 913 914 917 919 922 925 927 930 932 935 937 944 947 949 950 960 901 965 893 896 899 901 903 905 906 907 908 909 910 911 912 913 914 917 919 922 925 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (930): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (930): warning 28175: The 'DriverName' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (932): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (932): warning 28175: The 'DriverName' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (935): warning 28175: The 'DriverSection' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (940): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (944): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (944): warning 28175: The 'DriverName' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (949): warning 6011: (PFD)Dereferencing NULL pointer 'pKernelFilterDriverInfo'. See line 925 for an earlier location where this can occur.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+	PATH: 802 803 804 804 805 806 807 808 809 810 811 811 812 813 814 819 822 825 834 836 838 844 845 848 854 856 861 869 870 871 875 878 881 856 861 869 870 871 875 878 885 891 893 896 899 901 903 905 906 907 908 909 910 911 912 913 914 917 919 922 925 927 930 932 935 937 944 947 949 950 960 901 965 893 896 899 901 903 905 906 907 908 909 910 911 912 913 914 917 919 922 925 927 930 932 935 937 944 947 949 
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (960): warning 28175: The 'AttachedDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\kernel.c (965): warning 28175: The 'NextDevice' member of _DEVICE_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: kernel_filterDriverEnumFunc (800)
+
+e:\deianeira\sys_win7\deianeira\deianeira\ldasm.c (598): warning 6290: Bitwise operation on logical result: ! has higher precedence than &. Use && or (!(x & y)) instead
+	FUNCTION: SizeOfCode (553)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (174): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: monitor_updateMonitorInfo (61)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (176): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: monitor_updateMonitorInfo (61)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (178): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: monitor_updateMonitorInfo (61)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (183): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: monitor_updateMonitorInfo (61)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (185): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: monitor_updateMonitorInfo (61)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (187): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: monitor_updateMonitorInfo (61)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (189): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: monitor_updateMonitorInfo (61)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (18): warning 28719: Banned API Usage:  swprintf is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: GetLocalTime (4)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (228): warning 6262: Function uses '1076' bytes of stack: exceeds /analyze:stacksize'1024'. Consider moving some data to heap
+	FUNCTION: ProcessCallbackFunc (228)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (252): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: ProcessCallbackFunc (228)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (268): warning 28719: Banned API Usage:  swprintf is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: ProcessCallbackFunc (228)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (271): warning 6001: (PFD)Using uninitialized memory 'ustrProcessName'.
+	FUNCTION: ProcessCallbackFunc (228)
+	PATH: 230 231 232 233 234 235 236 237 241 242 248 250 252 257 263 266 268 270 271 
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (282): warning 6262: Function uses '1080' bytes of stack: exceeds /analyze:stacksize'1024'. Consider moving some data to heap
+	FUNCTION: ThreadCallbackFunc (282)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (308): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: ThreadCallbackFunc (282)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (325): warning 28719: Banned API Usage:  swprintf is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: ThreadCallbackFunc (282)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (328): warning 6001: (PFD)Using uninitialized memory 'ustrProcessName'.
+	FUNCTION: ThreadCallbackFunc (282)
+	PATH: 284 285 286 287 288 289 290 291 292 297 298 304 306 308 314 320 323 325 327 328 
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (338): warning 6262: Function uses '1080' bytes of stack: exceeds /analyze:stacksize'1024'. Consider moving some data to heap
+	FUNCTION: LoadImageCallbackFunc (338)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (363): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: LoadImageCallbackFunc (338)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (371): warning 28719: Banned API Usage:  swprintf is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: LoadImageCallbackFunc (338)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (374): warning 6001: (PFD)Using uninitialized memory 'ustrProcessName'.
+	FUNCTION: LoadImageCallbackFunc (338)
+	PATH: 340 341 342 343 344 345 346 347 348 352 353 359 361 363 367 369 371 373 374 
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (387): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: monitor_start (384)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (388): warning 6011: (PFD)Dereferencing NULL pointer 'pMonitorInfo'. See line 388 for an earlier location where this can occur.
+	FUNCTION: monitor_start (384)
+	PATH: 386 387 388 
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (388): warning 6011: (PFD)Dereferencing NULL pointer 'pMonitorInfoHead'.
+	FUNCTION: monitor_start (384)
+	PATH: 386 387 388 
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (419): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: monitor_free (404)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (420): warning 6011: (PFD)Dereferencing NULL pointer 'pMonitorInfoHead'.
+	FUNCTION: monitor_free (404)
+	PATH: 406 410 412 419 420 
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (68): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: monitor_updateMonitorInfo (61)
+
+e:\deianeira\sys_win7\deianeira\deianeira\monitor.c (68): warning 6014: (PFD)Leaking memory 'p'.
+	FUNCTION: monitor_updateMonitorInfo (61)
+	PATH: 63 64 65 65 66 66 68 70 76 76 124 124 126 151 153 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1040): warning 6001: (PFD)Using uninitialized memory 'ulOffset'.
+	FUNCTION: process_getProcessInfo (995)
+	PATH: 997 999 1000 1001 1001 1006 1008 1023 1040 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1116): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: process_getProcessThreadInfo (1057)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1142): warning 6001: (PFD)Using uninitialized memory 'ulPIDOffset'.
+	FUNCTION: process_getProcessThreadInfo (1057)
+	PATH: 1061 1064 1066 1066 1068 1068 1070 1071 1093 1095 1100 1105 1116 1119 1126 1129 1131 1134 1142 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1195): warning 6011: (PFD)Dereferencing NULL pointer 'pProcessThreadInfoTmp'.
+	FUNCTION: process_getProcessThreadInfo (1057)
+	PATH: 1061 1064 1066 1066 1068 1068 1070 1071 1093 1095 1100 1105 1116 1119 1126 1129 1131 1134 1142 1227 1131 1134 1142 1154 1165 1168 1180 1195 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1217): warning 6011: (PFD)Dereferencing NULL pointer 'pProcessThreadInfo'. See line 1195 for an earlier location where this can occur.
+	FUNCTION: process_getProcessThreadInfo (1057)
+	PATH: 1061 1064 1066 1066 1068 1068 1070 1071 1093 1095 1100 1105 1116 1119 1126 1129 1131 1134 1142 1227 1131 1134 1142 1154 1165 1168 1180 1195 1198 1206 1214 1217 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (122): warning 6001: (PFD)Using uninitialized memory 'ulPsResumeProcessAddr'.
+	FUNCTION: process_getPsResumeProcessAddress (69)
+	PATH: 71 71 72 73 75 75 79 84 91 91 94 97 103 115 91 94 97 103 115 91 119 122 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1272): warning 6001: (PFD)Using uninitialized memory 'ulBaseAddr'.
+	FUNCTION: process_getThreadBaseAddr (1239)
+	PATH: 1243 1245 1246 1247 1250 1251 1252 1254 1257 1260 1272 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1334): warning 6001: (PFD)Using uninitialized memory 'ulPEB'.
+	FUNCTION: process_getProcessModuleInfo (1282)
+	PATH: 1284 1285 1287 1287 1288 1289 1290 1295 1298 1324 1328 1334 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1382): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1386): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1392): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1410): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1410): warning 6014: (PFD)Leaking memory 'p'.
+	FUNCTION: process_getProcessHandleInfo (1363)
+	PATH: 1364 1365 1366 1367 1368 1369 1370 1371 1372 1373 1374 1375 1376 1377 1378 1382 1383 1386 1389 1395 1405 1405 1407 1405 1405 1407 1410 1411 1413 1415 1416 1417 1419 1421 1422 1424 1425 1426 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1452): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1452): warning 6011: (PFD)Dereferencing NULL pointer 'p'.
+	FUNCTION: process_getProcessHandleInfo (1363)
+	PATH: 1364 1365 1366 1367 1368 1369 1370 1371 1372 1373 1374 1375 1376 1377 1378 1382 1383 1386 1389 1395 1405 1405 1407 1405 1405 1407 1410 1411 1413 1440 1444 1445 1447 1448 1452 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1457): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1464): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1468): warning 6011: (PFD)Dereferencing NULL pointer 'pFile_name_information'. See line 1460 for an earlier location where this can occur.
+	FUNCTION: process_getProcessHandleInfo (1363)
+	PATH: 1364 1365 1366 1367 1368 1369 1370 1371 1372 1373 1374 1375 1376 1377 1378 1382 1383 1386 1389 1395 1405 1405 1407 1405 1405 1407 1410 1411 1413 1440 1444 1445 1447 1448 1452 1455 1457 1458 1460 1461 1468 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1469): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1477): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1481): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1487): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1491): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: process_getProcessHandleInfo (1363)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (1491): warning 6011: (PFD)Dereferencing NULL pointer 'pKobject_name_information'.
+	FUNCTION: process_getProcessHandleInfo (1363)
+	PATH: 1364 1365 1366 1367 1368 1369 1370 1371 1372 1373 1374 1375 1376 1377 1378 1382 1383 1386 1389 1395 1405 1405 1407 1405 1405 1407 1410 1411 1413 1440 1444 1445 1447 1448 1452 1455 1475 1481 1482 1484 1485 1491 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (225): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: process_killProcess (212)
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (225): warning 6014: (PFD)Leaking memory 'm_base_address'.
+	FUNCTION: process_killProcess (212)
+	PATH: 214 215 216 217 218 219 225 227 229 235 237 239 240 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (28): warning 6001: (PFD)Using uninitialized memory 'ulNtSuspendProcess'.
+	FUNCTION: process_getPsSuspendProcessAddress (6)
+	PATH: 8 8 9 10 12 12 16 21 28 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (342): warning 6001: (PFD)Using uninitialized memory 'ulOffset'.
+	FUNCTION: process_hideProcess (276)
+	PATH: 278 280 281 282 282 282 287 290 293 299 314 329 342 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (528): warning 6001: (PFD)Using uninitialized memory 'urlPspTerminateThreadByPointerAddr'.
+	FUNCTION: process_getPspTerminateThreadByPointerAddress (465)
+	PATH: 467 467 468 469 471 471 476 499 499 502 505 511 521 499 502 505 511 521 499 525 528 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (560): warning 6001: (PFD)Using uninitialized memory 'ulNtSuspendThread'.
+	FUNCTION: process_getKeSuspendThreadAddress (538)
+	PATH: 540 540 541 542 544 544 544 548 553 560 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (595): warning 6001: (PFD)Using uninitialized memory 'ulPsSuspendThread'.
+	FUNCTION: process_getKeSuspendThreadAddress (538)
+	PATH: 540 540 541 542 544 544 544 548 553 560 560 563 566 572 589 560 563 566 572 589 560 592 595 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (59): warning 6001: (PFD)Using uninitialized memory 'ulPsSuspendProcessAddr'.
+	FUNCTION: process_getPsSuspendProcessAddress (6)
+	PATH: 8 8 9 10 12 12 16 21 28 28 31 34 40 52 28 31 34 40 52 28 56 59 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (628): warning 6001: (PFD)Using uninitialized memory 'ulKeSuspendThread'.
+	FUNCTION: process_getKeSuspendThreadAddress (538)
+	PATH: 540 540 541 542 544 544 544 548 553 560 560 563 566 572 589 560 563 566 572 589 560 592 595 595 598 601 607 624 595 598 601 607 624 595 628 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (660): warning 6001: (PFD)Using uninitialized memory 'ulNtResumeThread'.
+	FUNCTION: process_getKeResumeThreadAddress (638)
+	PATH: 640 640 641 642 644 644 644 648 653 660 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (693): warning 6001: (PFD)Using uninitialized memory 'ulPsResumeThread'.
+	FUNCTION: process_getKeResumeThreadAddress (638)
+	PATH: 640 640 641 642 644 644 644 648 653 660 660 663 666 672 689 660 663 666 672 689 660 693 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (720): warning 6001: (PFD)Using uninitialized memory 'ulKeResumeThread'.
+	FUNCTION: process_getKeResumeThreadAddress (638)
+	PATH: 640 640 641 642 644 644 644 648 653 660 660 663 666 672 689 660 663 666 672 689 660 693 693 696 699 705 716 693 696 699 705 716 693 720 
+
+e:\deianeira\sys_win7\deianeira\deianeira\process.c (91): warning 6001: (PFD)Using uninitialized memory 'ulNtResumeProcess'.
+	FUNCTION: process_getPsResumeProcessAddress (69)
+	PATH: 71 71 72 73 75 75 79 84 91 
+
+e:\deianeira\sys_win7\deianeira\deianeira\shadow.c (18): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: GetWin32kBase (5)
+
+e:\deianeira\sys_win7\deianeira\deianeira\shadow.c (60): warning 6001: (PFD)Using uninitialized memory 'ulAddress'.
+	FUNCTION: GetWin32kBase (5)
+	PATH: 7 8 10 11 12 15 18 20 28 30 40 40 55 58 60 
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (18): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: sysmodule_enumDrivers (8)
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (192): warning 6001: (PFD)Using uninitialized memory 'ulIopLoadUnloadDriver'.
+	FUNCTION: sysmodule_getIopLoadUnloadDriverAddress (146)
+	PATH: 148 148 149 150 152 152 157 160 160 163 166 172 189 160 163 166 172 189 160 192 
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (253): warning 6001: (PFD)Using uninitialized memory 'ulIopOpenRegistryKey'.
+	FUNCTION: sysmodule_getIopOpenRegistryKeyAddress (202)
+	PATH: 204 204 205 206 208 208 212 214 221 221 224 227 233 249 221 224 227 233 249 221 253 
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (25): warning 28175: The 'DriverSection' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: sysmodule_enumDrivers (8)
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (36): warning 28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..
+	FUNCTION: sysmodule_enumDrivers (8)
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (40): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: sysmodule_enumDrivers (8)
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (40): warning 6011: (PFD)Dereferencing NULL pointer 'pSystemModuleInfo_tmp'.
+	FUNCTION: sysmodule_enumDrivers (8)
+	PATH: 10 11 12 13 18 21 25 30 34 36 38 40 41 44 46 48 51 53 57 58 30 34 36 38 40 
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (41): warning 28719: Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.
+	FUNCTION: sysmodule_enumDrivers (8)
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (51): warning 6011: (PFD)Dereferencing NULL pointer 'pSystemModuleInfo'. See line 40 for an earlier location where this can occur.
+	FUNCTION: sysmodule_enumDrivers (8)
+	PATH: 10 11 12 13 18 21 25 30 34 36 38 40 41 44 46 48 51 53 57 58 30 34 36 38 40 41 44 46 48 51 
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (58): warning 28175: The 'DriverSection' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.
+	FUNCTION: sysmodule_enumDrivers (8)
+
+e:\deianeira\sys_win7\deianeira\deianeira\sysmodule.c (61): warning 6011: (PFD)Dereferencing NULL pointer 'pSystemModuleInfoHead'. See line 21 for an earlier location where this can occur.
+	FUNCTION: sysmodule_enumDrivers (8)
+	PATH: 10 11 12 13 18 21 25 30 34 57 58 61 
+
+-----------------------------------------------------------------------------
+214 of 214 Defects Listed
+Filter in effect: drivers_recommended
+-----------------------------------------------------------------------------
+You can change the filter and sort options from the user interface.
+Enter PREFAST VIEW to display the defect log user interface.
