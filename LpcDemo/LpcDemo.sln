@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LpcDemo_exe", "LpcDemo_exe\LpcDemo_exe.vcxproj", "{1B40FFB6-4CA5-44B1-8EEB-A6CC113638B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LpcDemo_sys", "LpcDemo_sys\LpcDemo_sys.vcxproj", "{84938F5D-3D33-4941-9E0B-8688839C7F72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{175A893B-8C7A-4691-A769-2B450D62FA39}"
+	ProjectSection(SolutionItems) = preProject
+		inc\CommonDefs.h = inc\CommonDefs.h
+		inc\KernelModeDefs.h = inc\KernelModeDefs.h
+		inc\Lpc.h = inc\Lpc.h
+		inc\ntstatus.h = inc\ntstatus.h
+		inc\UserModeDefs.h = inc\UserModeDefs.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B40FFB6-4CA5-44B1-8EEB-A6CC113638B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B40FFB6-4CA5-44B1-8EEB-A6CC113638B1}.Debug|Win32.Build.0 = Debug|Win32
+		{1B40FFB6-4CA5-44B1-8EEB-A6CC113638B1}.Release|Win32.ActiveCfg = Release|Win32
+		{1B40FFB6-4CA5-44B1-8EEB-A6CC113638B1}.Release|Win32.Build.0 = Release|Win32
+		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Debug|Win32.Build.0 = Debug|Win32
+		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Release|Win32.ActiveCfg = Release|Win32
+		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+#include "res.h"
+
+#if defined(CHK)
+	SYSBIN RCDATA DISCARDABLE "check\\sys.sys"
+#elif defined(FRE)
+	SYSBIN RCDATA DISCARDABLE "free\\sys.sys"
+#elif defined(FNL)
+	SYSBIN RCDATA DISCARDABLE "final\\sys.sys"
+#else
+	#error UNKNOW BUILD_SYM
+#endif

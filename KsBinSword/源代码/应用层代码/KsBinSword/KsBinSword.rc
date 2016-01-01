@@ -1,0 +1,576 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\KsBinSword.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\KsBinSword.ico"
+IDI_ICON_BLANK          ICON                    "res\\icon1.ico"
+ICO_CDDRV               ICON                    "res\\Cddrive.ico"
+ICO_OPENFLD             ICON                    "res\\Openfold.ico"
+IDI_ICON2               ICON                    "res\\35floppy.ico"
+IDI_ICON3               ICON                    "res\\Clsdfold.ico"
+IDI_ICON4               ICON                    "res\\Drive.ico"
+ICO_MYCOMP              ICON                    "res\\Mycomp.ico"
+IDI_ICON1               ICON                    "res\\ico00001.ico"
+IDI_ICON5               ICON                    "res\\icon5.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 KsBinSword"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "KsBinSword 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_KSBINSWORD_DIALOG DIALOGEX 0, 0, 414, 389
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "KsBinSword"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "帮助",IDOK,7,5,50,16
+    PUSHBUTTON      "最小化到系统托盘",IDTOSYSTRAY,61,5,65,16
+    CONTROL         "",IDC_TAB1,"SysTabControl32",TCS_MULTILINE | WS_GROUP | 0x8,7,24,400,358,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_COMBO2,182,7,47,13,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "选择皮肤：",IDC_STATIC,144,9,35,8
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 449, 364
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "驱动列举进程",IDOK,77,7,59,15
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_EDITLABELS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,23,435,151
+    CONTROL         "",IDC_LIST2,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,175,435,90
+    CONTROL         "",IDC_LIST3,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,265,435,92
+    PUSHBUTTON      "列举进程",IDC_BUTTON1,16,7,53,15
+    LTEXT           "本软件为测试版，仅供测试，请勿用于重要机器",IDC_STATIC,149,10,185,8
+    LTEXT           "`",IDC_STATIC_PRO,434,6,8,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 457, 244
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "开始进程监控",IDOK,30,44,67,22
+    PUSHBUTTON      "开始注册表监控",IDCANCEL,30,99,66,22
+    GROUPBOX        "系统监控",IDC_STATIC,17,14,95,183
+    PUSHBUTTON      "开始模块监控",IDC_BUTTON1,30,158,66,22
+    LTEXT           "进程监控",IDC_STATIC,31,31,53,10
+    LTEXT           "注册表监控",IDC_STATIC,31,82,41,8
+    LTEXT           "模块监控",IDC_STATIC,33,145,33,8
+    GROUPBOX        "U盘辅助管理",IDC_STATIC,128,14,127,182
+    DEFPUSHBUTTON   "打开U盘辅助插件",IDOK2,139,44,75,22
+    PUSHBUTTON      "脚本木马查杀",IDC_BUTTON3,141,97,73,22
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 442, 363
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "列举驱动",IDCANCEL,7,7,45,21
+    EDITTEXT        IDC_EDIT1,7,31,428,325,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL,WS_EX_CLIENTEDGE
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 448, 362
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPSIBLINGS
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "刷新进线程、模块启动监视列表",IDOK,7,7,123,18
+    EDITTEXT        IDC_EDIT1,7,25,434,330,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    PUSHBUTTON      "清除信息",IDC_BUTTON1,139,7,68,17
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 463, 355
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "恢复SSDT并删除非系统表项",IDOK,115,6,106,17
+    PUSHBUTTON      "一键恢复所有SSDT",IDCANCEL,233,6,74,17
+    CONTROL         "",IDC_LIST3,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,27,439,321
+    PUSHBUTTON      "刷新列表",IDC_BUTTON1,319,6,44,17
+    LTEXT           "红色说明表项被非法修改",IDC_STATIC,7,11,89,8,0,WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 450, 359
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",WS_BORDER | WS_TABSTOP,7,7,166,345
+    CONTROL         "",IDC_LIST4,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,175,7,261,345
+END
+
+IDD_DIALOG8 DIALOGEX 0, 0, 409, 341
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,29,377,59
+    PUSHBUTTON      "卸载",IDC_BUTTON1,323,7,39,19
+    PUSHBUTTON      "添加规则",IDC_BUTTON2,199,7,39,19
+    PUSHBUTTON      "安装",IDC_BUTTON3,283,7,39,19
+    PUSHBUTTON      "删除规则",IDC_BUTTON4,241,7,39,19
+    PUSHBUTTON      "停止应用",IDC_BUTTON5,62,7,39,19
+    PUSHBUTTON      "应用防火墙规则",IDC_BUTTON6,7,7,55,19
+    PUSHBUTTON      "保存规则",IDC_BUTTON7,159,7,39,19
+    PUSHBUTTON      "从本地加载规则",IDC_BUTTON8,103,7,54,19
+    PUSHBUTTON      "停止监视",IDC_BUTTON9,46,92,39,17
+    PUSHBUTTON      "监视网络",IDC_BUTTON10,7,92,39,17
+    EDITTEXT        IDC_EDIT2,7,113,378,214,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    PUSHBUTTON      "清空信息",IDC_BUTTON11,86,92,39,17
+    LTEXT           "开机后第一次使用请重启本软件",IDC_STATIC,148,94,97,8
+END
+
+IDD_DIALOG7 DIALOGEX 0, 0, 432, 378
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_ACCEPTFILES
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "十六进制   0x",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,360,46,62,10
+    CONTROL         "十进制",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,360,32,40,10
+    EDITTEXT        IDC_EDIT1,7,52,347,310,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "读取硬盘",IDOK,362,91,50,14
+    PUSHBUTTON      "写入硬盘",IDCANCEL,363,115,50,14
+    CONTROL         "Address",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,365,215,46,13
+    CONTROL         "Hexcode",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,365,242,48,10
+    CONTROL         "Ascii",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,365,263,42,9
+    CONTROL         "4/8",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,365,281,48,14
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,363,305,60,11
+    EDITTEXT        IDC_EDIT2,361,59,62,14,ES_AUTOHSCROLL
+    LTEXT           "扇区：",IDC_STATIC,363,19,60,9
+    EDITTEXT        IDC_EDIT3,51,17,304,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,52,36,303,14,ES_AUTOHSCROLL
+    LTEXT           "计算文件所在簇（LCN）",IDC_STATIC,9,8,86,8
+    LTEXT           "LCN列表：",IDC_STATIC,9,38,38,8
+    LTEXT           "文件路径：",IDC_STATIC,7,20,41,8
+    GROUPBOX        "普通方式",IDC_STATIC,359,77,60,58
+    GROUPBOX        "驱动方式",IDC_STATIC,358,144,61,64
+    DEFPUSHBUTTON   "读取硬盘",IDOK2,364,159,50,14
+    PUSHBUTTON      "写入硬盘",IDCANCEL2,364,183,50,14
+END
+
+IDD_ADDRULEDLG DIALOGEX 0, 0, 368, 175
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规则配置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,311,25,50,14
+    PUSHBUTTON      "取消",IDCANCEL,311,40,50,14
+    GROUPBOX        "源",IDC_STATIC,10,17,299,53
+    LTEXT           "(0.0.0.0 for all)",IDC_STATIC,18,35,50,8
+    LTEXT           "IP 地址",IDC_STATIC,19,27,26,8
+    EDITTEXT        IDC_EDIT1,73,28,71,15,ES_AUTOHSCROLL
+    LTEXT           "端口\n(0 for all)",IDC_STATIC,183,26,37,19
+    EDITTEXT        IDC_EDIT2,229,28,38,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,73,52,72,13,ES_AUTOHSCROLL
+    LTEXT           "掩码",IDC_STATIC,25,53,17,8
+    GROUPBOX        "目的",IDC_STATIC,7,78,301,57
+    LTEXT           "(0.0.0.0 for all)",IDC_STATIC,17,99,50,8
+    LTEXT           "IP 地址",IDC_STATIC,19,91,26,8
+    EDITTEXT        IDC_EDIT3,73,92,74,15,ES_AUTOHSCROLL
+    LTEXT           "端口\n(0 for all)",IDC_STATIC,186,89,37,19
+    EDITTEXT        IDC_EDIT4,230,92,38,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,73,116,73,13,ES_AUTOHSCROLL
+    LTEXT           "掩码",IDC_STATIC,25,117,17,8
+    COMBOBOX        IDC_COMBO1,215,140,61,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,60,140,71,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "协议类型",IDC_STATIC,18,140,33,8
+    LTEXT           "行动方向",IDC_STATIC,181,143,33,8
+END
+
+IDD_DIALOG9 DIALOGEX 0, 0, 439, 356
+STYLE DS_ABSALIGN | DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_ACCEPTFILES
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,375,10,50,14
+    EDITTEXT        IDC_EDIT1,7,26,425,304,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    EDITTEXT        IDC_EDIT2,104,8,240,15,ES_AUTOHSCROLL
+    LTEXT           "文件路径（支持拖拽）：",IDC_STATIC,7,11,89,8,0,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "内核防护"
+            VALUE "FileDescription", "反病毒套装"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "KsBinSword.exe"
+            VALUE "LegalCopyright", "内核防护小组保留所有权利。"
+            VALUE "OriginalFilename", "KsBinSword.exe"
+            VALUE "ProductName", "KsBinSword"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_KSBINSWORD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 407
+        BOTTOMMARGIN, 382
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 442
+        VERTGUIDE, 442
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 357
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 450
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 435
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 356
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 441
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 355
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 456
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 348
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 443
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 352
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 402
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 334
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 425
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 371
+    END
+
+    IDD_ADDRULEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 361
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_DIALOG9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 432
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 349
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "menu"
+    BEGIN
+        MENUITEM "复制进程路径",                      ID_MENU_32771
+        MENUITEM "关闭进程(清零法)",                   ID_MENU_32772
+        MENUITEM "关闭进程(驱动，危险)",                 ID_MENU_32786
+        MENUITEM "关闭进程(普通方法)",                  ID_MENU_32789
+        MENUITEM "列举进程模块，线程",                   ID_MENU_DD
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "menu"
+    BEGIN
+        MENUITEM "强制卸载模块",                      ID_MENU_32773
+        MENUITEM "普通卸载模块",                      ID_MENU_32774
+    END
+END
+
+IDR_MENU3 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "强制删除",                        ID_MENU_32775
+        MENUITEM "普通删除",                        ID_MENU_32776
+    END
+END
+
+CG_IDR_POPUP_HEX_EDIT MENU 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "&Undo",                       ID_EDIT_UNDO
+        MENUITEM "Cut",                         ID_EDIT_CUT
+        MENUITEM "Copy",                        ID_EDIT_COPY
+        MENUITEM "Paste",                       ID_EDIT_PASTE
+        MENUITEM "Delect",                      ID_EDIT_CLEAR
+        MENUITEM "Select All",                  ID_EDIT_SELECT_ALL
+    END
+END
+
+IDR_MENU4 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "普通结束线程",                      ID_MENU_32784
+        MENUITEM "强制结束线程（危险）",                  ID_MENU_32785
+    END
+END
+
+IDR_MENU5 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "回到主界面",                       ID_MENU_11
+        MENUITEM "退出",                          ID_MENU_1222
+    END
+END
+
+IDR_MENU6 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "恢复此项SSDT",                    ID_MENU_32791
+    END
+END
+
+RIGHTBUTTON MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "剪切",                          ID_MENU_CUT
+        MENUITEM "复制",                          ID_MENU_COPY
+        MENUITEM "粘贴",                          ID_MENU_PASTE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ADDRULEDLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 8, 0
+0x6f46, 0x7772, 0x7261, 0x0064, 
+    IDC_COMBO1, 0x403, 5, 0
+0x7244, 0x706f, "\000" 
+    IDC_COMBO2, 0x403, 4, 0
+0x6c41, 0x006c, 
+    IDC_COMBO2, 0x403, 4, 0
+0x4354, 0x0050, 
+    IDC_COMBO2, 0x403, 4, 0
+0x4455, 0x0050, 
+    IDC_COMBO2, 0x403, 5, 0
+0x4349, 0x504d, "\000" 
+    0
+END
+
+IDD_KSBINSWORD_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0031, 
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0032, 
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0033, 
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0034, 
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0035, 
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0036, 
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0037, 
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0038, 
+    IDC_COMBO2, 0x403, 6, 0
+0xa4c6, 0xf4b7, 0x0039, 
+    IDC_COMBO2, 0x403, 7, 0
+0xa4c6, 0xf4b7, 0x3031, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xa4c6, 0xf4b7, 0x3131, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 KsBinSword(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\KsBinSword.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

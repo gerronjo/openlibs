@@ -1,0 +1,20 @@
+﻿生成启动时间为 2011-8-3 18:29:42。
+     1>项目“G:\Demo Projects\LpcDemo\LpcDemo_sys\LpcDemo_sys.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\LpcDemo_sys.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\LpcDemo_sys.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         G:\Visual Studio 2010\VC\bin\CL.exe /c /Z7 /nologo /W3 /WX /Od /Oy- /D WIN32 /D _DEBUG /D DBG /D _X86_ /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt LpcDemo_sys.c
+         LpcDemo_sys.c
+       Link:
+         G:\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Demo Projects\LpcDemo\Debug\LpcDemo_sys.sys" /INCREMENTAL:NO /NOLOGO ntoskrnl.lib hal.lib /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"G:\Demo Projects\LpcDemo\Debug\LpcDemo_sys.pdb" /SUBSYSTEM:NATIVE /Driver /TLBID:1 /ENTRY:"DriverEntry" /RELEASE /BASE:"0x10000" /IMPLIB:"G:\Demo Projects\LpcDemo\Debug\LpcDemo_sys.lib" /MACHINE:X86 Debug\LpcDemo_sys.obj
+         LpcDemo_sys.vcxproj -> G:\Demo Projects\LpcDemo\Debug\LpcDemo_sys.sys
+       FinalizeBuildStatus:
+         正在删除文件“Debug\LpcDemo_sys.unsuccessfulbuild”。
+         正在对“Debug\LpcDemo_sys.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\Demo Projects\LpcDemo\LpcDemo_sys\LpcDemo_sys.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.32

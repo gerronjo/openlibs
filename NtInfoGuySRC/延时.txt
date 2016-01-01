@@ -1,0 +1,6 @@
+@echo off
+echo Wscript.Sleep Wscript.Arguments(0) * 1000>delay.vbs
+delay.vbs 0.5
+del delay.vbs
+rem echo ok!
+@echo on
