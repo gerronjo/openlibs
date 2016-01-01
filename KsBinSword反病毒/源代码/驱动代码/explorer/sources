@@ -1,8 +1,0 @@
-TARGETNAME=explorer
-TARGETTYPE=DRIVER
-TARGETPATH=obj
-
-
-INCLUDES=.\
-
-SOURCES = explorer.c

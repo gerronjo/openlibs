@@ -1,2 +1,0 @@
-1>warnings in directory i:\kernel\3600safe\driver
-1>i:\kernel\3600safe\driver\safesystem.c(98) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PVOID'

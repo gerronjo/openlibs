@@ -1,1 +1,0 @@
-bin2c A-Protect.sys KernelModule.h lpszKernelModule
